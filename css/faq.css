@@ -1,0 +1,1180 @@
+
+
+.bp1-faq {
+  width               : 100%;
+  /*min-width           : 1440px;*/
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-faq .bp1-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 77px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.06%;
+}
+.bp1-faq .bp1-frequentlyaskedque {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 953px;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp1-faq .bp1-frequentlyaskedque-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 195px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-faq .bp1-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.61%;
+  top                 : 24px;
+  height              : 30px;
+  width               : 666px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp1-faq .bp1-header .bp1-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 446px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-faq .bp1-header .bp1-login:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-header .bp1-login .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp1-faq .bp1-header .bp1-login .bp1-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-faq .bp1-header .bp1-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 566px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-faq .bp1-header .bp1-signup:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-header .bp1-signup .bp1-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp1-faq .bp1-header .bp1-signup .bp1-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-faq .bp1-header .bp1-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-faq .bp1-header .bp1-stories:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-header .bp1-faqh {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 261px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-faq .bp1-header .bp1-faq:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-header .bp1-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-faq .bp1-header .bp1-aboutus:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-header .bp1-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-faq .bp1-header .bp1-companies:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-header .bp1-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-faq .bp1-header .bp1-students:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-signup2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 50.56%;
+  top                 : 512px;
+  height              : 67px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-faq .bp1-signup2:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-signup2 .bp1-rectangle7 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 33px;
+}
+.bp1-faq .bp1-signup2 .bp1-forstudents {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : 198px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-faq .bp1-signup3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 512px;
+  height              : 67px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 52.22%;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-faq .bp1-signup3:hover {
+  transform           : scale(1.1);
+}
+.bp1-faq .bp1-signup3 .bp1-rectangle71 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 33px;
+}
+.bp1-faq .bp1-signup3 .bp1-forcompanies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 16px;
+  height              : auto;
+  width               : 198px;
+  position            : absolute;
+  margin              : 0;
+  left                : 118px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-faq {
+  width               : 100%;
+  /*min-width           : 1024px;*/
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-faq .bp2-frequentlyaskedque {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 953px;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp2-faq .bp2-frequentlyaskedque-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 195px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-faq .bp2-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 51.95%;
+  top                 : 512px;
+  height              : 67px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-faq .bp2-signup:hover {
+  transform           : scale(1.1);
+}
+.bp2-faq .bp2-signup .bp2-rectangle7 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 33px;
+}
+.bp2-faq .bp2-signup .bp2-forstudents {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-faq .bp2-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 512px;
+  height              : 67px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 51.95%;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-faq .bp2-signup1:hover {
+  transform           : scale(1.1);
+}
+.bp2-faq .bp2-signup1 .bp2-rectangle71 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 33px;
+}
+.bp2-faq .bp2-signup1 .bp2-forcompanies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 192px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-faq .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 77px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.06%;
+}
+.bp2-faq .bp2-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.57%;
+  top                 : 24px;
+  height              : 30px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-faq .bp2-header .bp2-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 399px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-faq .bp2-header .bp2-login:hover {
+  transform           : scale(1.1);
+}
+.bp2-faq .bp2-header .bp2-login .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp2-faq .bp2-header .bp2-login .bp2-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-faq .bp2-header .bp2-signup2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-faq .bp2-header .bp2-signup2:hover {
+  transform           : scale(1.1);
+}
+.bp2-faq .bp2-header .bp2-signup2 .bp2-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp2-faq .bp2-header .bp2-signup2 .bp2-signup3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-faq .bp2-header .bp2-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-faq .bp2-header .bp2-stories:hover {
+  color               : #F15A29;
+}
+.bp2-faq .bp2-header .bp2-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-faq .bp2-header .bp2-faq:hover {
+  color               : #F15A29;
+}
+.bp2-faq .bp2-header .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-faq .bp2-header .bp2-aboutus:hover {
+  color               : #F15A29;
+}
+.bp2-faq .bp2-header .bp2-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-faq .bp2-header .bp2-companies:hover {
+  color               : #F15A29;
+}
+.bp2-faq .bp2-header .bp2-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-faq .bp2-header .bp2-students:hover {
+  color               : #F15A29;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-faq {
+  width               : 100%;
+  /*min-width           : 768px;*/
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-faq .bp3-frequentlyaskedque {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 953px;
+  height              : auto;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 40.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 49.0px;
+}
+.bp3-faq .bp3-frequentlyaskedque-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 203px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-faq .bp3-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 345px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-faq .bp3-signup-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 365px;
+  align-items         : center;
+  height              : 67px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-faq .bp3-signup:hover {
+  transform           : scale(1.1);
+}
+.bp3-faq .bp3-signup .bp3-rectangle7 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 345px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 33px;
+}
+.bp3-faq .bp3-signup .bp3-forstudents {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 154px;
+  position            : absolute;
+  margin              : 0;
+  left                : 96px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-faq .bp3-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 346px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-faq .bp3-signup1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 479px;
+  align-items         : center;
+  height              : 67px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-faq .bp3-signup1:hover {
+  transform           : scale(1.1);
+}
+.bp3-faq .bp3-signup1 .bp3-rectangle71 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 67px;
+  width               : 346px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 33px;
+}
+.bp3-faq .bp3-signup1 .bp3-forcompanies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 17px;
+  height              : auto;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 77px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-faq .bp3-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 8.59%;
+  top                 : 18px;
+  height              : 30px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-faq .bp3-header .bp3-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 399px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-faq .bp3-header .bp3-login:hover {
+  transform           : scale(1.1);
+}
+.bp3-faq .bp3-header .bp3-login .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp3-faq .bp3-header .bp3-login .bp3-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-faq .bp3-header .bp3-signup2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-faq .bp3-header .bp3-signup2:hover {
+  transform           : scale(1.1);
+}
+.bp3-faq .bp3-header .bp3-signup2 .bp3-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp3-faq .bp3-header .bp3-signup2 .bp3-signup3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-faq .bp3-header .bp3-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-faq .bp3-header .bp3-stories:hover {
+  color               : #F15A29;
+}
+.bp3-faq .bp3-header .bp3-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-faq .bp3-header .bp3-faq:hover {
+  color               : #F15A29;
+}
+.bp3-faq .bp3-header .bp3-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-faq .bp3-header .bp3-aboutus:hover {
+  color               : #F15A29;
+}
+.bp3-faq .bp3-header .bp3-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-faq .bp3-header .bp3-companies:hover {
+  color               : #F15A29;
+}
+.bp3-faq .bp3-header .bp3-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-faq .bp3-header .bp3-students:hover {
+  color               : #F15A29;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1023px) {
+  .bp3-faq {
+    display             : block;
+  }
+  .bp2-faq {
+    display             : none;
+  }
+  .bp1-faq {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp3-faq {
+    display             : none;
+  }
+  .bp2-faq {
+    display             : block;
+  }
+  .bp1-faq {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp3-faq {
+    display             : none;
+  }
+  .bp2-faq {
+    display             : none;
+  }
+  .bp1-faq {
+    display             : block;
+  }
+}

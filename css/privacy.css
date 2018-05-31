@@ -1,0 +1,1763 @@
+
+
+.bp2-privacypolicy {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 5209px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-privacypolicy .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 77px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.06%;
+}
+.bp2-privacypolicy .bp2-the2hatsprivacyag {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 123px;
+  height              : auto;
+  width               : 1081px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.54%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 58.0px;
+}
+.bp2-privacypolicy .bp2-a1questionscontac {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 414px;
+  height              : auto;
+  width               : 1052px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.54%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.61%;
+  top                 : 24px;
+  height              : 30px;
+  width               : 666px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-privacypolicy .bp2-header .bp2-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 446px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-privacypolicy .bp2-header .bp2-login:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-header .bp2-login .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp2-privacypolicy .bp2-header .bp2-login .bp2-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header .bp2-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 566px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-privacypolicy .bp2-header .bp2-signup:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-header .bp2-signup .bp2-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp2-privacypolicy .bp2-header .bp2-signup .bp2-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header .bp2-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header .bp2-stories:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-header .bp2-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 261px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header .bp2-faq:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-header .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header .bp2-aboutus:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-header .bp2-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header .bp2-companies:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-header .bp2-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-privacypolicy .bp2-header .bp2-students:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-path6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4832px;
+  height              : 381px;
+  width               : 100.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+}
+.bp2-privacypolicy .bp2-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4891px;
+  height              : 99px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12.99%;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-privacypolicy .bp2-logo1:hover {
+  transform           : scale(1.1);
+}
+.bp2-privacypolicy .bp2-group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5011px;
+  height              : 63px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+}
+.bp2-privacypolicy .bp2-group2 .bp2-chatwithususingt {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp2-privacypolicy .bp2-group2 .bp2-info2hatscomau {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp2-privacypolicy .bp2-anyquestionslets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4989px;
+  height              : auto;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-students1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4992px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-students1:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-companies1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 5033px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-companies1:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-aboutus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 5074px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-aboutus1:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-faq1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 5115px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-faq1:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-followus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 195px;
+  top                 : 4991px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 22.0px;
+}
+.bp2-privacypolicy .bp2-storiesadvice {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 4992px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-storiesadvice:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-careers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 5033px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-careers:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-privacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 5074px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-privacypolicy:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-termsconditions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 5115px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-privacypolicy .bp2-termsconditions:hover {
+  color               : #F15A29;
+}
+.bp2-privacypolicy .bp2-a2hats2018allrig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5128px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp2-privacypolicy .bp2-facebookf {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5023px;
+  height              : 29px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1175px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-privacypolicy .bp2-facebookf:hover {
+  color               : F15A29;
+}
+.bp2-privacypolicy .bp2-linkedinin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 5023px;
+  height              : 29px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1214px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-privacypolicy .bp2-linkedinin:hover {
+  color               : F15A29;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-privacy {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 6694px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-privacy .bp1-the2hatsprivacyag {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 126px;
+  height              : auto;
+  width               : 668px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.57%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 58.0px;
+}
+.bp1-privacy .bp1-a1questionscontac {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 533px;
+  height              : auto;
+  width               : 668px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.28%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp1-privacy .bp1-path6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6284px;
+  height              : 427px;
+  width               : 100.59%;
+  position            : absolute;
+  margin              : 0;
+  left                : -6px;
+}
+.bp1-privacy .bp1-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6343px;
+  height              : 70px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12.70%;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-privacy .bp1-logo:hover {
+  transform           : scale(1.1);
+}
+.bp1-privacy .bp1-group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6463px;
+  height              : 86px;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.28%;
+}
+.bp1-privacy .bp1-group2 .bp1-chatwithususingt {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-privacy .bp1-group2 .bp1-info2hatscomau {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-privacy .bp1-anyquestionslets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6441px;
+  height              : auto;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.28%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.60%;
+  top                 : 6444px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-students:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.60%;
+  top                 : 6485px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-companies:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.60%;
+  top                 : 6526px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-aboutus:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.60%;
+  top                 : 6567px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-faq:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-followus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 165px;
+  top                 : 6440px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 22.0px;
+}
+.bp1-privacy .bp1-storiesadvice {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.51%;
+  top                 : 6444px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-storiesadvice:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-careers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.51%;
+  top                 : 6485px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-careers:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-privacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.51%;
+  top                 : 6526px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-privacypolicy:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-termsconditions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.51%;
+  top                 : 6567px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-privacy .bp1-termsconditions:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-linkedinin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 167px;
+  top                 : 6467px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-privacy .bp1-linkedinin:hover {
+  color               : F15A29;
+}
+.bp1-privacy .bp1-facebookf {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 219px;
+  top                 : 6468px;
+  height              : 28px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-privacy .bp1-facebookf:hover {
+  color               : F15A29;
+}
+.bp1-privacy .bp1-a2hats2018allrig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6580px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.28%;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp1-privacy .bp1-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 77px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.06%;
+}
+.bp1-privacy .bp1-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.57%;
+  top                 : 24px;
+  height              : 30px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp1-privacy .bp1-header .bp1-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 399px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-privacy .bp1-header .bp1-login:hover {
+  transform           : scale(1.1);
+}
+.bp1-privacy .bp1-header .bp1-login .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp1-privacy .bp1-header .bp1-login .bp1-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-privacy .bp1-header .bp1-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-privacy .bp1-header .bp1-signup:hover {
+  transform           : scale(1.1);
+}
+.bp1-privacy .bp1-header .bp1-signup .bp1-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp1-privacy .bp1-header .bp1-signup .bp1-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-privacy .bp1-header .bp1-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-privacy .bp1-header .bp1-stories:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-header .bp1-faq1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-privacy .bp1-header .bp1-faq1:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-header .bp1-aboutus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-privacy .bp1-header .bp1-aboutus1:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-header .bp1-companies1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-privacy .bp1-header .bp1-companies1:hover {
+  color               : #F15A29;
+}
+.bp1-privacy .bp1-header .bp1-students1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-privacy .bp1-header .bp1-students1:hover {
+  color               : #F15A29;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-privacypolicy {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 6884px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-privacypolicy .bp3-the2hatsprivacyag {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 124px;
+  height              : auto;
+  width               : 668px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.64%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 58.0px;
+}
+.bp3-privacypolicy .bp3-a1questionscontac {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 560px;
+  height              : auto;
+  width               : 668px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6.64%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp3-privacypolicy .bp3-path6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6326px;
+  height              : 558px;
+  width               : 100.52%;
+  position            : absolute;
+  margin              : 0;
+  left                : -2px;
+}
+.bp3-privacypolicy .bp3-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6362px;
+  height              : 70px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 89px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-privacypolicy .bp3-logo:hover {
+  transform           : scale(1.1);
+}
+.bp3-privacypolicy .bp3-group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6466px;
+  height              : 86px;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+}
+.bp3-privacypolicy .bp3-group2 .bp3-chatwithususingt {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp3-privacypolicy .bp3-group2 .bp3-info2hatscomau {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp3-privacypolicy .bp3-anyquestionslets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6444px;
+  height              : auto;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-a2hats2018allrig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6850px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp3-privacypolicy .bp3-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6627px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-students:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6668px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-companies:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6710px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-aboutus:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6753px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 92px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-faq:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-followus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6445px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  left                : 436px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp3-privacypolicy .bp3-linkedinin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6472px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 478px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-privacypolicy .bp3-linkedinin:hover {
+  color               : F15A29;
+}
+.bp3-privacypolicy .bp3-facebookf {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6472px;
+  height              : 28px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 438px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-privacypolicy .bp3-facebookf:hover {
+  color               : F15A29;
+}
+.bp3-privacypolicy .bp3-storiesadvice {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6627px;
+  height              : auto;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  left                : 437px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-storiesadvice:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-careers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6668px;
+  height              : auto;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  left                : 437px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-careers:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-privacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6710px;
+  height              : auto;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  left                : 437px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-privacypolicy:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-termsconditions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 6753px;
+  height              : auto;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  left                : 437px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-privacypolicy .bp3-termsconditions:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 10.29%;
+  top                 : 24px;
+  height              : 30px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-privacypolicy .bp3-header .bp3-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 399px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-privacypolicy .bp3-header .bp3-login:hover {
+  transform           : scale(1.1);
+}
+.bp3-privacypolicy .bp3-header .bp3-login .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp3-privacypolicy .bp3-header .bp3-login .bp3-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-privacypolicy .bp3-header .bp3-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-privacypolicy .bp3-header .bp3-signup:hover {
+  transform           : scale(1.1);
+}
+.bp3-privacypolicy .bp3-header .bp3-signup .bp3-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp3-privacypolicy .bp3-header .bp3-signup .bp3-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-privacypolicy .bp3-header .bp3-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-privacypolicy .bp3-header .bp3-stories:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-header .bp3-faq1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-privacypolicy .bp3-header .bp3-faq1:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-header .bp3-aboutus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-privacypolicy .bp3-header .bp3-aboutus1:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-header .bp3-companies1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-privacypolicy .bp3-header .bp3-companies1:hover {
+  color               : #F15A29;
+}
+.bp3-privacypolicy .bp3-header .bp3-students1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp3-privacypolicy .bp3-header .bp3-students1:hover {
+  color               : #F15A29;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1023px) {
+  .bp3-privacypolicy {
+    display             : block;
+  }
+  .bp1-privacy {
+    display             : none;
+  }
+  .bp2-privacypolicy {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp3-privacypolicy {
+    display             : none;
+  }
+  .bp1-privacy {
+    display             : block;
+  }
+  .bp2-privacypolicy {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp3-privacypolicy {
+    display             : none;
+  }
+  .bp1-privacy {
+    display             : none;
+  }
+  .bp2-privacypolicy {
+    display             : block;
+  }
+}

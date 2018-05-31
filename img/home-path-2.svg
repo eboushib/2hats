@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg preserveAspectRatio="none" viewBox="0 0 1469 2246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="36.7526147%" y1="-9.65254349%" x2="50%" y2="81.3575275%" id="linearGradient-1">
+            <stop stop-color="#EF4136" offset="0%"></stop>
+            <stop stop-color="#F7941D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.95">
+        <path d="M0,143.496669 C370.506273,128.128639 662.825793,96.1143774 876.958558,47.4538855 C1091.09132,-1.20660629 1288.43847,-12.4437643 1469,13.7424115 L1469,2180.92696 C1222.26751,2132.6298 979.961412,2132.6298 742.081704,2180.92696 C504.201996,2229.22412 256.841428,2250.63669 0,2245.16468 L0,143.496669 Z" id="Path-2" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

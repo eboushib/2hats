@@ -1,0 +1,7306 @@
+
+
+.bp3-aboutus3 {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 4655px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-an-animation-enter {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter1 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter1-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter1-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter2 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter2-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter2-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter2-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter2-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter2-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter3 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter3-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter3-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter3-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter3-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter3-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter4 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter4-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter4-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter4-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter4-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter4-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter5 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter5-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter5-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter5-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter5-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter5-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter6 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter6-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter6-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter6-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter6-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter6-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter7 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter7-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter7-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter7-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter7-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter7-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter7-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter7-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter7-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter8 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter8-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter8-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter8-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter8-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter9 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter9-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter9-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter9-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter9-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter10 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter10-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter10-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter10-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter10-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter10-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter11 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter11-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter11-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter11-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter11-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter11-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter12-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter12-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter12-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter12-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter13 {
+  opacity             : 0;
+  transform           : translate(40px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter13-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter13-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter13-frames 1s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter13-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+  -o-animation-delay  : 0.75s;
+  animation-delay     : 0.75s;
+}
+@-webkit-keyframes bp3-an-animation-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter13-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-an-animation-enter14 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter14-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter14-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter14-frames 1s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter14-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes bp3-an-animation-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp3-an-animation-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp3-an-animation-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp3-an-animation-enter14-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp3-aboutus3 .bp3-path2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 697px;
+  height              : 2246px;
+  width               : 102.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-aboutus3 .bp3-ourprocess {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.61%;
+  top                 : 817px;
+  height              : auto;
+  width               : 1050px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 64.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 78.0px;
+}
+.bp3-aboutus3 .bp3-getconnectedtocom {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.61%;
+  top                 : 884px;
+  height              : auto;
+  width               : 647px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-receivespecialised {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1133px;
+  height              : auto;
+  width               : 605px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.10%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-findwhatyoureally {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1386px;
+  height              : auto;
+  width               : 605px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48.26%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-showcaseallyourac {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1835px;
+  height              : auto;
+  width               : 605px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-learnwith2hatsge {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2247px;
+  height              : auto;
+  width               : 532px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60.28%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-accessallthe2hats {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 18.40%;
+  top                 : 2571px;
+  height              : auto;
+  width               : 790px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.54%;
+  top                 : 24px;
+  height              : 30px;
+  width               : 666px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-aboutus3 .bp3-header .bp3-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 446px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-aboutus3 .bp3-header .bp3-login:hover {
+  transform           : scale(1.1);
+}
+.bp3-aboutus3 .bp3-header .bp3-login .bp3-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp3-aboutus3 .bp3-header .bp3-login .bp3-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-aboutus3 .bp3-header .bp3-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 566px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-aboutus3 .bp3-header .bp3-signup:hover {
+  transform           : scale(1.1);
+}
+.bp3-aboutus3 .bp3-header .bp3-signup .bp3-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp3-aboutus3 .bp3-header .bp3-signup .bp3-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 52px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-aboutus3 .bp3-header .bp3-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 114px;
+  position            : absolute;
+  margin              : 0;
+  left                : 311px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-aboutus3 .bp3-header .bp3-stories:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-header .bp3-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 33px;
+  position            : absolute;
+  margin              : 0;
+  left                : 261px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-aboutus3 .bp3-header .bp3-faq:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-header .bp3-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 68px;
+  position            : absolute;
+  margin              : 0;
+  left                : 177px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-aboutus3 .bp3-header .bp3-aboutus:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-header .bp3-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 79px;
+  position            : absolute;
+  margin              : 0;
+  left                : 82px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-aboutus3 .bp3-header .bp3-companies:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-header .bp3-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-aboutus3 .bp3-header .bp3-students:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 77px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.06%;
+}
+.bp3-aboutus3 .bp3-path5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1098px;
+  height              : 1507px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.bp3-aboutus3 .bp3-oval6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1060px;
+  height              : 200px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.bp3-aboutus3 .bp3-oval61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 42px;
+  top                 : 2454px;
+  height              : 200px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-aboutus3 .bp3-oval62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 54.93%;
+  top                 : 1386px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-aboutus3 .bp3-oval63 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 48.26%;
+  top                 : 1832px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-aboutus3 .bp3-oval64 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 43.06%;
+  top                 : 2247px;
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-aboutus3 .bp3-jointhe2hatscommu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1090px;
+  height              : auto;
+  width               : 459px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.10%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp3-aboutus3 .bp3-findyourcareerpat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1343px;
+  height              : auto;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48.26%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp3-aboutus3 .bp3-showcaseyourtalent {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1789px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.47%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp3-aboutus3 .bp3-upskillandgrow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2204px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 60.28%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp3-aboutus3 .bp3-placementdeployed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 18.40%;
+  top                 : 2528px;
+  height              : auto;
+  width               : 788px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp3-aboutus3 .bp3-growachievesucceed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 1064px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-aboutus3 .bp3-growachievesucceed-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3072px;
+  align-items         : center;
+  height              : 223px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-aboutus3 .bp3-growachievesucceed .bp3-grow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp3-aboutus3 .bp3-growachievesucceed .bp3-achieve {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 391px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp3-aboutus3 .bp3-growachievesucceed .bp3-succeed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 769px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp3-aboutus3 .bp3-growachievesucceed .bp3-gettrainedanddeve {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : 308px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp3-aboutus3 .bp3-growachievesucceed .bp3-doworkthatactuall {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : 308px;
+  position            : absolute;
+  margin              : 0;
+  left                : 385px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp3-aboutus3 .bp3-growachievesucceed .bp3-findacareerthaty {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : 308px;
+  position            : absolute;
+  margin              : 0;
+  left                : 755px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp3-aboutus3 .bp3-testimonial {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 1021px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-aboutus3 .bp3-testimonial-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3456px;
+  align-items         : center;
+  height              : 206px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-aboutus3 .bp3-testimonial .bp3-group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 460px;
+}
+.bp3-aboutus3 .bp3-testimonial .bp3-group .bp3-oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 95px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-aboutus3 .bp3-testimonial .bp3-group .bp3-futurepacificlogo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 62px;
+  height              : 41px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+}
+.bp3-aboutus3 .bp3-testimonial .bp3-theplacementthat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 116px;
+  height              : auto;
+  width               : 1022px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "HelveticaNeue-MediumItalic", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-testimonial .bp3-stellaleeproperty {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : auto;
+  width               : 531px;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(74, 73, 74, 0.79);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-signupbottom {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 1156px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-aboutus3 .bp3-signupbottom-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3908px;
+  align-items         : center;
+  height              : 176px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-becomeapaidsuperinternthrough2hatstoday {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 1158px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-signup2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 54px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 360px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-signup2:hover {
+  transform           : scale(1.1);
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-signup2 .bp3-rectangle7 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 27px;
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-signup2 .bp3-signup3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-learnmore {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 122px;
+  height              : 54px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 597px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-learnmore:hover {
+  transform           : scale(1.1);
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-learnmore .bp3-rectangle71 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 200px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 27px;
+}
+.bp3-aboutus3 .bp3-signupbottom .bp3-learnmore .bp3-learnmore1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-aboutus3 .bp3-path6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4274px;
+  height              : 381px;
+  width               : 100.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+}
+.bp3-aboutus3 .bp3-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4333px;
+  height              : 99px;
+  width               : 149px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12.99%;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-aboutus3 .bp3-logo1:hover {
+  transform           : scale(1.1);
+}
+.bp3-aboutus3 .bp3-group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4453px;
+  height              : 63px;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+}
+.bp3-aboutus3 .bp3-group2 .bp3-chatwithususingt {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 364px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp3-aboutus3 .bp3-group2 .bp3-info2hatscomau {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 42px;
+  height              : auto;
+  width               : 166px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp3-aboutus3 .bp3-anyquestionslets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4431px;
+  height              : auto;
+  width               : 383px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-students1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4434px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-students1:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-companies1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4475px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-companies1:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-aboutus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4516px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-aboutus1:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-faq1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4557px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-faq1:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-followus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 195px;
+  top                 : 4433px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 22.0px;
+}
+.bp3-aboutus3 .bp3-storiesadvice {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 4434px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-storiesadvice:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-careers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 4475px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-careers:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-privacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 4516px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-privacypolicy:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-termsconditions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 28.82%;
+  top                 : 4557px;
+  height              : auto;
+  width               : 202px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp3-aboutus3 .bp3-termsconditions:hover {
+  color               : #F15A29;
+}
+.bp3-aboutus3 .bp3-linkedinin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 195px;
+  top                 : 4465px;
+  height              : 29px;
+  width               : 31px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-aboutus3 .bp3-linkedinin:hover {
+  color               : F15A29;
+}
+.bp3-aboutus3 .bp3-facebookf {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 248px;
+  top                 : 4465px;
+  height              : 29px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp3-aboutus3 .bp3-facebookf:hover {
+  color               : F15A29;
+}
+.bp3-aboutus3 .bp3-a2hats2018allrig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4570px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp3-aboutus3 .bp3-allbackground3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 215px;
+  height              : 469px;
+  width               : 1053px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.11%;
+}
+.bp3-aboutus3 .bp3-clouds {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 279px;
+  height              : 372px;
+  width               : 1020px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.94%;
+}
+.bp3-aboutus3 .bp3-allgraphicsbig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 232px;
+  height              : 561px;
+  width               : 941px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33.19%;
+}
+.bp3-aboutus3 .bp3-herotext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 215px;
+  height              : 347px;
+  width               : 425px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.54%;
+}
+.bp3-aboutus3 .bp3-herotext .bp3-yourfuturestartsn {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 427px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 64.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 78.0px;
+}
+.bp3-aboutus3 .bp3-herotext .bp3-getaheadbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 305px;
+  height              : 42px;
+  width               : 389px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.bp3-aboutus3 .bp3-herotext .bp3-getaheadbutton .bp3-emailform {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-aboutus3 .bp3-herotext .bp3-getaheadbutton .bp3-emailform .bp3-rectangle2 {
+  background-color    : rgba(237, 237, 237, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 387px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 21px;
+}
+.bp3-aboutus3 .bp3-herotext .bp3-getaheadbutton .bp3-emailform .bp3-textyouremail {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 30px;
+  width               : 228px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 0.63);
+  text-align          : left;
+  line-height         : 22.0px;
+  border              : 0;
+}
+.bp3-aboutus3 .bp3-herotext .bp3-getaheadbutton .bp3-emailform .bp3-textyouremail::placeholder {
+  color               : rgba(65, 64, 66, 0.38);
+}
+.bp3-aboutus3 .bp3-herotext .bp3-getaheadbutton .bp3-getahead {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+.bp3-aboutus3 .bp3-herotext .bp3-kickstartyourprofe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 163px;
+  height              : auto;
+  width               : 425px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-aboutus3 .bp3-a5award {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 10px;
+  top                 : 2434px;
+  height              : 220px;
+  width               : 224px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-aboutus3 .bp3-a2boyresume {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 989px;
+  height              : 271px;
+  width               : 285px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-screen3 {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 4655px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-an-animation-enter16 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter16-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter16-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter16-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter16-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter16-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter17 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter18 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter19 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter20 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter21 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter22 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter23 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter24 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter25 {
+  opacity             : 0;
+  transform           : translate(-25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(-25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter26 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter27 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter28 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp2-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter29 {
+  opacity             : 0;
+  transform           : translate(40px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter29-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter29-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter29-frames 1s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter29-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+  -o-animation-delay  : 0.75s;
+  animation-delay     : 0.75s;
+}
+@-webkit-keyframes bp2-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-an-animation-enter30 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter30-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter30-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter30-frames 1s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter30-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes bp2-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp2-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp2-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp2-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp2-screen3 .bp2-path2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 677px;
+  height              : 2246px;
+  width               : 102.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen3 .bp2-ourprocess {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.61%;
+  top                 : 797px;
+  height              : auto;
+  width               : 747px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 64.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 78.0px;
+}
+.bp2-screen3 .bp2-getconnectedtocom {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.57%;
+  top                 : 864px;
+  height              : auto;
+  width               : 657px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-receivespecialised {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1113px;
+  height              : auto;
+  width               : 605px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.10%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-findwhatyoureally {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1366px;
+  height              : auto;
+  width               : 396px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50.98%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-showcaseallyourac {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1812px;
+  height              : auto;
+  width               : 398px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7.42%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-learnwith2hatsge {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2228px;
+  height              : auto;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 63.96%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-accessallthe2hats {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2535px;
+  height              : auto;
+  width               : 681px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.57%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 77px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.06%;
+}
+.bp2-screen3 .bp2-path5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1078px;
+  height              : 1507px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+}
+.bp2-screen3 .bp2-oval6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1040px;
+  height              : 142px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.bp2-screen3 .bp2-oval61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 42px;
+  top                 : 2434px;
+  height              : 142px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen3 .bp2-oval62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 55.57%;
+  top                 : 1366px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen3 .bp2-oval63 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 47.75%;
+  top                 : 1812px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen3 .bp2-oval64 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 44.24%;
+  top                 : 2227px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen3 .bp2-jointhe2hatscommu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1070px;
+  height              : auto;
+  width               : 459px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.10%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp2-screen3 .bp2-findyourcareerpat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1323px;
+  height              : auto;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50.98%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp2-screen3 .bp2-showcaseyourtalent {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1774px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7.42%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp2-screen3 .bp2-upskillandgrow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2185px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 63.96%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp2-screen3 .bp2-placementdeployed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 2492px;
+  height              : auto;
+  width               : 696px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.57%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp2-screen3 .bp2-growachievesucceed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 757px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen3 .bp2-growachievesucceed-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3045px;
+  align-items         : center;
+  height              : 265px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen3 .bp2-growachievesucceed .bp2-grow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp2-screen3 .bp2-growachievesucceed .bp2-achieve {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 277px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp2-screen3 .bp2-growachievesucceed .bp2-succeed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 546px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp2-screen3 .bp2-growachievesucceed .bp2-gettrainedanddeve {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp2-screen3 .bp2-growachievesucceed .bp2-doworkthatactuall {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 273px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp2-screen3 .bp2-growachievesucceed .bp2-findacareerthaty {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 97px;
+  height              : auto;
+  width               : 219px;
+  position            : absolute;
+  margin              : 0;
+  left                : 537px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp2-screen3 .bp2-testimonial {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 845px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen3 .bp2-testimonial-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3450px;
+  align-items         : center;
+  height              : 233px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen3 .bp2-testimonial .bp2-group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 372px;
+}
+.bp2-screen3 .bp2-testimonial .bp2-group .bp2-oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen3 .bp2-testimonial .bp2-group .bp2-futurepacificlogo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 62px;
+  height              : 41px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+}
+.bp2-screen3 .bp2-testimonial .bp2-theplacementthat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 116px;
+  height              : auto;
+  width               : 846px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "HelveticaNeue-MediumItalic", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-testimonial .bp2-stellaleeproperty {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 203px;
+  height              : auto;
+  width               : 730px;
+  position            : absolute;
+  margin              : 0;
+  left                : 57px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(74, 73, 74, 0.79);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-signupbottom {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 823px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen3 .bp2-signupbottom-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3900px;
+  align-items         : center;
+  height              : 164px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen3 .bp2-signupbottom .bp2-becomeapaidsuperinternthrough2hatstoday {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 824px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 44.0px;
+}
+.bp2-screen3 .bp2-signupbottom .bp2-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 110px;
+  height              : 54px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 185px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-screen3 .bp2-signupbottom .bp2-signup:hover {
+  transform           : scale(1.1);
+}
+.bp2-screen3 .bp2-signupbottom .bp2-signup .bp2-rectangle7 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 27px;
+}
+.bp2-screen3 .bp2-signupbottom .bp2-signup .bp2-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 95px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-signupbottom .bp2-learnmore {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 110px;
+  height              : 54px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 427px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-screen3 .bp2-signupbottom .bp2-learnmore:hover {
+  transform           : scale(1.1);
+}
+.bp2-screen3 .bp2-signupbottom .bp2-learnmore .bp2-rectangle71 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 27px;
+}
+.bp2-screen3 .bp2-signupbottom .bp2-learnmore .bp2-learnmore1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen3 .bp2-path6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4254px;
+  height              : 427px;
+  width               : 100.59%;
+  position            : absolute;
+  margin              : 0;
+  left                : -3px;
+}
+.bp2-screen3 .bp2-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4313px;
+  height              : 70px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12.99%;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-screen3 .bp2-logo1:hover {
+  transform           : scale(1.1);
+}
+.bp2-screen3 .bp2-group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4433px;
+  height              : 86px;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+}
+.bp2-screen3 .bp2-group2 .bp2-chatwithususingt {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp2-screen3 .bp2-group2 .bp2-info2hatscomau {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp2-screen3 .bp2-anyquestionslets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4411px;
+  height              : auto;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4414px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-students:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4455px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-companies:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4496px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-aboutus:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 41.32%;
+  top                 : 4537px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-faq:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-followus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 162px;
+  top                 : 4410px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 22.0px;
+}
+.bp2-screen3 .bp2-storiesadvice {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.22%;
+  top                 : 4414px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-storiesadvice:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-careers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.22%;
+  top                 : 4455px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-careers:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-privacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.22%;
+  top                 : 4496px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-privacypolicy:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-termsconditions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 24.22%;
+  top                 : 4537px;
+  height              : auto;
+  width               : 191px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp2-screen3 .bp2-termsconditions:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-linkedinin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 164px;
+  top                 : 4437px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-screen3 .bp2-linkedinin:hover {
+  color               : F15A29;
+}
+.bp2-screen3 .bp2-facebookf {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 216px;
+  top                 : 4438px;
+  height              : 28px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-screen3 .bp2-facebookf:hover {
+  color               : F15A29;
+}
+.bp2-screen3 .bp2-a2hats2018allrig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4550px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.61%;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp2-screen3 .bp2-allbackground3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 211px;
+  height              : 323px;
+  width               : 727px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29.98%;
+}
+.bp2-screen3 .bp2-clouds {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 270px;
+  height              : 217px;
+  width               : 597px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38.67%;
+}
+.bp2-screen3 .bp2-allgraphicssmall {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 151px;
+  height              : 427px;
+  width               : 507px;
+  position            : absolute;
+  margin              : 0;
+  left                : 50.00%;
+}
+.bp2-screen3 .bp2-herotext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : 375px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.57%;
+}
+.bp2-screen3 .bp2-herotext .bp2-yourfuturestartsn {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 362px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 64.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 78.0px;
+}
+.bp2-screen3 .bp2-herotext .bp2-getaheadbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 333px;
+  height              : 42px;
+  width               : 331px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.bp2-screen3 .bp2-herotext .bp2-getaheadbutton .bp2-emailform {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen3 .bp2-herotext .bp2-getaheadbutton .bp2-emailform .bp2-rectangle2 {
+  background-color    : rgba(237, 237, 237, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 21px;
+}
+.bp2-screen3 .bp2-herotext .bp2-getaheadbutton .bp2-emailform .bp2-textyouremail {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 30px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 0.63);
+  text-align          : left;
+  line-height         : 22.0px;
+  border              : 0;
+}
+.bp2-screen3 .bp2-herotext .bp2-getaheadbutton .bp2-emailform .bp2-textyouremail::placeholder {
+  color               : rgba(65, 64, 66, 0.38);
+}
+.bp2-screen3 .bp2-herotext .bp2-getaheadbutton .bp2-getahead {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
+.bp2-screen3 .bp2-herotext .bp2-kickstartyourprofe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 163px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen3 .bp2-a5award {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 19px;
+  top                 : 2420px;
+  height              : 156px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen3 .bp2-a2boyresume {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 990px;
+  height              : 193px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+}
+.bp2-screen3 .bp2-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.57%;
+  top                 : 24px;
+  height              : 30px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen3 .bp2-header .bp2-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 399px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-screen3 .bp2-header .bp2-login:hover {
+  transform           : scale(1.1);
+}
+.bp2-screen3 .bp2-header .bp2-login .bp2-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp2-screen3 .bp2-header .bp2-login .bp2-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-screen3 .bp2-header .bp2-signup2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp2-screen3 .bp2-header .bp2-signup2:hover {
+  transform           : scale(1.1);
+}
+.bp2-screen3 .bp2-header .bp2-signup2 .bp2-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp2-screen3 .bp2-header .bp2-signup2 .bp2-signup3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-screen3 .bp2-header .bp2-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-screen3 .bp2-header .bp2-stories:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-header .bp2-faq1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-screen3 .bp2-header .bp2-faq1:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-header .bp2-aboutus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-screen3 .bp2-header .bp2-aboutus1:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-header .bp2-companies1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-screen3 .bp2-header .bp2-companies1:hover {
+  color               : #F15A29;
+}
+.bp2-screen3 .bp2-header .bp2-students1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp2-screen3 .bp2-header .bp2-students1:hover {
+  color               : #F15A29;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-home {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 4258px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-an-animation-enter17 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter17-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter17-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter18 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter18-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter18-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter19 {
+  opacity             : 0;
+  transform           : translate(
+25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter19-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(
+  25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(
+  25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(
+  25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter19-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(
+  25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter20 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter20-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter20-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter21 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter21-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter21-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter22 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter22-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter22-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter23 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter23-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter23-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter24 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter24-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter24-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter25 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter25-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter25-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter26 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter26-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter26-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter27 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter27-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter27-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter28 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter28-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter28-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter29 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter29-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter29-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter29-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter29-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter29-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter30 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter30-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter30-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter30-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter30-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter30-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter31 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter31-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter31-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter31-frames 0.40000000596s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter31-frames 0.40000000596s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.20000000298s;
+  -moz-animation-delay: 0.20000000298s;
+  -o-animation-delay  : 0.20000000298s;
+  animation-delay     : 0.20000000298s;
+}
+@-webkit-keyframes bp1-an-animation-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter31-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(0, 25px);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter32 {
+  opacity             : 0;
+  transform           : translate(40px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter32-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter32-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter32-frames 1s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter32-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.75s;
+  -moz-animation-delay: 0.75s;
+  -o-animation-delay  : 0.75s;
+  animation-delay     : 0.75s;
+}
+@-webkit-keyframes bp1-an-animation-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter32-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(40px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-an-animation-enter33 {
+  opacity             : 0;
+  transform           : translate(25px, 0);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter33-frames 1s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter33-frames 1s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter33-frames 1s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter33-frames 1s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay  : 0.5s;
+  animation-delay     : 0.5s;
+}
+@-webkit-keyframes bp1-an-animation-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-moz-keyframes bp1-an-animation-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@-o-keyframes bp1-an-animation-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+@keyframes bp1-an-animation-enter33-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: translate(25px, 0);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: translate(0,0);
+    }
+}
+.bp1-home .bp1-path2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 677px;
+  height              : 1443px;
+  width               : 102.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-home .bp1-ourprocess {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.61%;
+  top                 : 797px;
+  height              : auto;
+  width               : 747px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 64.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 78.0px;
+}
+.bp1-home .bp1-getconnectedtocom {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 13.61%;
+  top                 : 864px;
+  height              : auto;
+  width               : 510px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : right;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-receivespecialised {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1110px;
+  height              : auto;
+  width               : 459px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-findwhatyoureally {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1317px;
+  height              : auto;
+  width               : 479px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-showcaseallyourac {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1498px;
+  height              : auto;
+  width               : 481px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-learnwith2hatsge {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1673px;
+  height              : auto;
+  width               : 480px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-accessallthe2hats {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1897px;
+  height              : auto;
+  width               : 508px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-logo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 115px;
+  height              : 77px;
+  width               : 116px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.54%;
+}
+.bp1-home .bp1-oval6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1040px;
+  height              : 142px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.bp1-home .bp1-oval61 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1776px;
+  height              : 142px;
+  width               : 142px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+}
+.bp1-home .bp1-oval62 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1282px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.bp1-home .bp1-oval63 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1462px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.bp1-home .bp1-oval64 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1644px;
+  height              : 36px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+}
+.bp1-home .bp1-jointhe2hatscommu {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1067px;
+  height              : auto;
+  width               : 459px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp1-home .bp1-findyourcareerpat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1274px;
+  height              : auto;
+  width               : 381px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.91%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp1-home .bp1-showcaseyourtalent {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1454px;
+  height              : auto;
+  width               : 405px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp1-home .bp1-upskillandgrow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1635px;
+  height              : auto;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.78%;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp1-home .bp1-line2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1113px;
+  height              : 735px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+}
+.bp1-home .bp1-placementdeployed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1800px;
+  height              : auto;
+  width               : 420px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 44.0px;
+}
+.bp1-home .bp1-group3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 420px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-home .bp1-group3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2168px;
+  align-items         : center;
+  height              : 133px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-home .bp1-group3 .bp1-grow {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 104px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp1-home .bp1-group3 .bp1-gettrainedanddeve {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 70px;
+  height              : auto;
+  width               : 420px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp1-home .bp1-group4 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 421px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-home .bp1-group4-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2351px;
+  align-items         : center;
+  height              : 175px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-home .bp1-group4 .bp1-achieve {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp1-home .bp1-group4 .bp1-doworkthatactuall {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 70px;
+  height              : auto;
+  width               : 420px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp1-home .bp1-group5 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 439px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-home .bp1-group5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2576px;
+  align-items         : center;
+  height              : 140px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-home .bp1-group5 .bp1-succeed {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 211px;
+  position            : absolute;
+  margin              : 0;
+  left                : 114px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 48.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 58.0px;
+}
+.bp1-home .bp1-group5 .bp1-findacareerthaty {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 70px;
+  height              : auto;
+  width               : 441px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.bp1-home .bp1-testimonial {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 729px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-home .bp1-testimonial-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2901px;
+  align-items         : center;
+  height              : 236px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-home .bp1-testimonial .bp1-group {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 103px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 314px;
+}
+.bp1-home .bp1-testimonial .bp1-group .bp1-oval {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 98px;
+  width               : 93px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-home .bp1-testimonial .bp1-group .bp1-futurepacificlogo {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 62px;
+  height              : 41px;
+  width               : 39px;
+  position            : absolute;
+  margin              : 0;
+  left                : 60px;
+}
+.bp1-home .bp1-testimonial .bp1-theplacementthat {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 119px;
+  height              : auto;
+  width               : 631px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+  font-family         : "HelveticaNeue-MediumItalic", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-testimonial .bp1-stellaleeproperty {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 206px;
+  height              : auto;
+  width               : 730px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(74, 73, 74, 0.79);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-signupbottom {
+  background-color    : rgba(255, 255, 255, 0.0);
+  width               : 506px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-home .bp1-signupbottom-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3363px;
+  align-items         : center;
+  height              : 182px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-home .bp1-signupbottom .bp1-becomeapaidsuperinternthrough2hatstoday {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 508px;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 44.0px;
+}
+.bp1-home .bp1-signupbottom .bp1-signup {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 54px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-home .bp1-signupbottom .bp1-signup:hover {
+  transform           : scale(1.1);
+}
+.bp1-home .bp1-signupbottom .bp1-signup .bp1-rectangle7 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 213px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 27px;
+}
+.bp1-home .bp1-signupbottom .bp1-signup .bp1-signup1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 95px;
+  position            : absolute;
+  margin              : 0;
+  left                : 59px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-signupbottom .bp1-learnmore {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 54px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 265px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-home .bp1-signupbottom .bp1-learnmore:hover {
+  transform           : scale(1.1);
+}
+.bp1-home .bp1-signupbottom .bp1-learnmore .bp1-rectangle71 {
+  background-color    : rgba(236, 240, 241, 1.0);
+  top                 : 0px;
+  height              : 54px;
+  width               : 212px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 27px;
+}
+.bp1-home .bp1-signupbottom .bp1-learnmore .bp1-learnmore1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 10px;
+  height              : auto;
+  width               : 135px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-home .bp1-path6 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3700px;
+  height              : 558px;
+  width               : 100.52%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-home .bp1-logo1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3736px;
+  height              : 70px;
+  width               : 106px;
+  position            : absolute;
+  margin              : 0;
+  left                : 91px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-home .bp1-logo1:hover {
+  transform           : scale(1.1);
+}
+.bp1-home .bp1-group2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3840px;
+  height              : 86px;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+}
+.bp1-home .bp1-group2 .bp1-chatwithususingt {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 249px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-home .bp1-group2 .bp1-info2hatscomau {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 65px;
+  height              : auto;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-home .bp1-anyquestionslets {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 3818px;
+  height              : auto;
+  width               : 273px;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-followus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 188px;
+  top                 : 3819px;
+  height              : auto;
+  width               : 144px;
+  position            : absolute;
+  margin              : 0;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.bp1-home .bp1-linkedinin {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 259px;
+  top                 : 3846px;
+  height              : 29px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-home .bp1-linkedinin:hover {
+  color               : F15A29;
+}
+.bp1-home .bp1-facebookf {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 312px;
+  top                 : 3846px;
+  height              : 28px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-home .bp1-facebookf:hover {
+  color               : F15A29;
+}
+.bp1-home .bp1-a2hats2018allrig {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4224px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 90px;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(144, 144, 144, 1.0);
+  text-align          : left;
+  line-height         : 14.0px;
+}
+.bp1-home .bp1-allbackground3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 211px;
+  height              : 323px;
+  width               : 727px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29.98%;
+}
+.bp1-home .bp1-clouds {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 270px;
+  height              : 217px;
+  width               : 597px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38.67%;
+}
+.bp1-home .bp1-allgraphics3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 174px;
+  height              : 475px;
+  width               : 527px;
+  position            : absolute;
+  margin              : 0;
+  left                : 392px;
+}
+.bp1-home .bp1-herotext {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 185px;
+  height              : 375px;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.57%;
+}
+.bp1-home .bp1-herotext .bp1-yourfuturestartsn {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 362px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 64.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 78.0px;
+}
+.bp1-home .bp1-herotext .bp1-getaheadbutton {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 333px;
+  height              : 42px;
+  width               : 331px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+}
+.bp1-home .bp1-herotext .bp1-getaheadbutton .bp1-emailform {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-home .bp1-herotext .bp1-getaheadbutton .bp1-emailform .bp1-rectangle2 {
+  background-color    : rgba(237, 237, 237, 1.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 329px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 21px;
+}
+.bp1-home .bp1-herotext .bp1-getaheadbutton .bp1-emailform .bp1-textyouremail {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4px;
+  height              : 30px;
+  width               : 193px;
+  position            : absolute;
+  margin              : 0;
+  left                : 15px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(65, 64, 66, 0.63);
+  text-align          : left;
+  line-height         : 22.0px;
+  border              : 0;
+}
+.bp1-home .bp1-herotext .bp1-getaheadbutton .bp1-emailform .bp1-textyouremail::placeholder {
+  color               : rgba(65, 64, 66, 0.38);
+}
+.bp1-home .bp1-herotext .bp1-getaheadbutton .bp1-getahead {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
+.bp1-home .bp1-herotext .bp1-kickstartyourprofe {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 163px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeue", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-home .bp1-a5award {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 1762px;
+  height              : 156px;
+  width               : 159px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+}
+.bp1-home .bp1-a2boyresume {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 990px;
+  height              : 193px;
+  width               : 203px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+}
+.bp1-home .bp1-students {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4001px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-students:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-companies {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4042px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-companies:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-aboutus {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4084px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-aboutus:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-faq {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 4127px;
+  height              : auto;
+  width               : 385px;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-faq:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-storiesadvice {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 3.52%;
+  top                 : 4001px;
+  height              : auto;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-storiesadvice:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-careers {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 2.60%;
+  top                 : 4042px;
+  height              : auto;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-careers:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-privacypolicy {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 2.60%;
+  top                 : 4084px;
+  height              : auto;
+  width               : 311px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-privacypolicy:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-termsconditions {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 3.52%;
+  top                 : 4127px;
+  height              : auto;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Bold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 23.0px;
+}
+.bp1-home .bp1-termsconditions:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-header {
+  background-color    : rgba(255, 255, 255, 0.0);
+  right               : 8.59%;
+  top                 : 18px;
+  height              : 30px;
+  width               : 596px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp1-home .bp1-header .bp1-login {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 399px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-home .bp1-header .bp1-login:hover {
+  transform           : scale(1.1);
+}
+.bp1-home .bp1-header .bp1-login .bp1-rectangle {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(241, 90, 41, 1.0);
+}
+.bp1-home .bp1-header .bp1-login .bp1-login1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(223, 99, 57, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-home .bp1-header .bp1-signup2 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 507px;
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-home .bp1-header .bp1-signup2:hover {
+  transform           : scale(1.1);
+}
+.bp1-home .bp1-header .bp1-signup2 .bp1-rectangle1 {
+  background-color    : rgba(241, 90, 41, 1.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 89px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 15px;
+}
+.bp1-home .bp1-header .bp1-signup2 .bp1-signup3 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-home .bp1-header .bp1-stories {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 278px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-home .bp1-header .bp1-stories:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-header .bp1-faq1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 30px;
+  position            : absolute;
+  margin              : 0;
+  left                : 234px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-home .bp1-header .bp1-faq1:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-header .bp1-aboutus1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 61px;
+  position            : absolute;
+  margin              : 0;
+  left                : 158px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-home .bp1-header .bp1-aboutus1:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-header .bp1-companies1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 71px;
+  position            : absolute;
+  margin              : 0;
+  left                : 73px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(65, 64, 66, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-home .bp1-header .bp1-companies1:hover {
+  color               : #F15A29;
+}
+.bp1-home .bp1-header .bp1-students1 {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : 59px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+  font-family         : "HelveticaNeue-Medium", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(241, 90, 41, 1.0);
+  text-align          : center;
+  line-height         : 15.0px;
+}
+.bp1-home .bp1-header .bp1-students1:hover {
+  color               : #F15A29;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1023px) {
+  .bp1-home {
+    display             : block;
+  }
+  .bp2-screen3 {
+    display             : none;
+  }
+  .bp3-aboutus3 {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp1-home {
+    display             : none;
+  }
+  .bp2-screen3 {
+    display             : block;
+  }
+  .bp3-aboutus3 {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp1-home {
+    display             : none;
+  }
+  .bp2-screen3 {
+    display             : none;
+  }
+  .bp3-aboutus3 {
+    display             : block;
+  }
+}
