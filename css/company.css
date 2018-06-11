@@ -2134,9 +2134,6 @@ div {
   left                : 446px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-company .bp1-header .bp1-login:hover {
-  transform           : scale(1.1);
-}
 .bp1-company .bp1-header .bp1-login .bp1-rectangle {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
@@ -2152,7 +2149,7 @@ div {
 }
 .bp1-company .bp1-header .bp1-login .bp1-login1 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 9px;
+  top                 : 8px;
   height              : auto;
   width               : 57px;
   position            : absolute;
@@ -2174,13 +2171,10 @@ div {
   left                : 566px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-company .bp1-header .bp1-signup1:hover {
-  transform           : scale(1.1);
-}
 .bp1-company .bp1-header .bp1-signup1 .bp1-rectangle1 {
   background-color    : rgba(241, 90, 41, 1.0);
   top                 : 0px;
-  height              : 30px;
+  height              : 32px;
   width               : 100px;
   position            : absolute;
   margin              : 0;
@@ -2189,7 +2183,7 @@ div {
 }
 .bp1-company .bp1-header .bp1-signup1 .bp1-signup2 {
   background-color    : rgba(255, 255, 255, 0.0);
-  top                 : 9px;
+  top                 : 8px;
   height              : auto;
   width               : 52px;
   position            : absolute;
@@ -2216,9 +2210,6 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.bp1-company .bp1-header .bp1-stories:hover {
-  transform           : scale(1.1);
-}
 .bp1-company .bp1-header .bp1-faq {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 9px;
@@ -2233,9 +2224,6 @@ div {
   color               : rgba(65, 64, 66, 1.0);
   text-align          : center;
   line-height         : 17.0px;
-}
-.bp1-company .bp1-header .bp1-faq:hover {
-  transform           : scale(1.1);
 }
 .bp1-company .bp1-header .bp1-aboutus {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -2252,9 +2240,6 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.bp1-company .bp1-header .bp1-aboutus:hover {
-  transform           : scale(1.1);
-}
 .bp1-company .bp1-header .bp1-companies {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 9px;
@@ -2270,9 +2255,6 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.bp1-company .bp1-header .bp1-companies:hover {
-  transform           : scale(1.1);
-}
 .bp1-company .bp1-header .bp1-students {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 9px;
@@ -2287,9 +2269,6 @@ div {
   color               : rgba(65, 64, 66, 1.0);
   text-align          : center;
   line-height         : 17.0px;
-}
-.bp1-company .bp1-header .bp1-students:hover {
-  transform           : scale(1.1);
 }
 .bp1-company .bp1-layer122x {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -2364,9 +2343,6 @@ div {
   margin              : 0;
   left                : 12.92%;
   transition          : all 0.2s ease-in-out;
-}
-.bp1-company .bp1-logo1:hover {
-  transform           : scale(1.1);
 }
 .bp1-company .bp1-group2 {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -4880,9 +4856,6 @@ div {
   left                : 12.99%;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen2 .bp2-logo:hover {
-  transform           : scale(1.1);
-}
 .bp2-screen2 .bp2-group2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 3900px;
@@ -5160,9 +5133,6 @@ div {
   left                : 399px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen2 .bp2-header .bp2-login:hover {
-  transform           : scale(1.1);
-}
 .bp2-screen2 .bp2-header .bp2-login .bp2-rectangle {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
@@ -5200,13 +5170,10 @@ div {
   left                : 507px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen2 .bp2-header .bp2-signup1:hover {
-  transform           : scale(1.1);
-}
 .bp2-screen2 .bp2-header .bp2-signup1 .bp2-rectangle1 {
   background-color    : rgba(241, 90, 41, 1.0);
   top                 : 0px;
-  height              : 30px;
+  height              : 32px;
   width               : 89px;
   position            : absolute;
   margin              : 0;
@@ -7607,9 +7574,6 @@ div {
   left                : 91px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-company .bp3-logo:hover {
-  transform           : scale(1.1);
-}
 .bp3-company .bp3-group2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 3734px;
@@ -7887,9 +7851,6 @@ div {
   left                : 399px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-company .bp3-header .bp3-login:hover {
-  transform           : scale(1.1);
-}
 .bp3-company .bp3-header .bp3-login .bp3-rectangle {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
@@ -7927,13 +7888,10 @@ div {
   left                : 507px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-company .bp3-header .bp3-signup1:hover {
-  transform           : scale(1.1);
-}
 .bp3-company .bp3-header .bp3-signup1 .bp3-rectangle1 {
   background-color    : rgba(241, 90, 41, 1.0);
   top                 : 0px;
-  height              : 30px;
+  height              : 32px;
   width               : 89px;
   position            : absolute;
   margin              : 0;

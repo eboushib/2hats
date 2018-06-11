@@ -3229,9 +3229,6 @@ div {
   left                : 13.26%;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-aboutus .bp2-logo:hover {
-  transform           : scale(1.1);
-}
 .bp2-aboutus .bp2-group2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 6207px;
@@ -3509,9 +3506,6 @@ div {
   left                : 446px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-aboutus .bp2-header .bp2-login:hover {
-  transform           : scale(1.1);
-}
 .bp2-aboutus .bp2-header .bp2-login .bp2-rectangle10 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
@@ -3548,9 +3542,6 @@ div {
   margin              : 0;
   left                : 566px;
   transition          : all 0.2s ease-in-out;
-}
-.bp2-aboutus .bp2-header .bp2-signup:hover {
-  transform           : scale(1.1);
 }
 .bp2-aboutus .bp2-header .bp2-signup .bp2-rectangle11 {
   background-color    : rgba(241, 90, 41, 1.0);
@@ -3591,9 +3582,6 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.bp2-aboutus .bp2-header .bp2-stories:hover {
-  transform           : scale(1.1);
-}
 .bp2-aboutus .bp2-header .bp2-faq1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 9px;
@@ -3608,9 +3596,6 @@ div {
   color               : rgba(65, 64, 66, 1.0);
   text-align          : center;
   line-height         : 17.0px;
-}
-.bp2-aboutus .bp2-header .bp2-faq1:hover {
-  transform           : scale(1.1);
 }
 .bp2-aboutus .bp2-header .bp2-aboutus1 {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -3627,9 +3612,6 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.bp2-aboutus .bp2-header .bp2-aboutus1:hover {
-  transform           : scale(1.1);
-}
 .bp2-aboutus .bp2-header .bp2-companies1 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 9px;
@@ -3644,9 +3626,6 @@ div {
   color               : rgba(65, 64, 66, 1.0);
   text-align          : center;
   line-height         : 17.0px;
-}
-.bp2-aboutus .bp2-header .bp2-companies1:hover {
-  transform           : scale(1.1);
 }
 .bp2-aboutus .bp2-header .bp2-students1 {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -3663,9 +3642,7 @@ div {
   text-align          : center;
   line-height         : 17.0px;
 }
-.bp2-aboutus .bp2-header .bp2-students1:hover {
-  transform           : scale(1.1);
-}
+
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
   opacity             : 0;
@@ -6969,9 +6946,6 @@ div {
   left                : 12.70%;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-aboutus .bp1-logo:hover {
-  transform           : scale(1.1);
-}
 .bp1-aboutus .bp1-group2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 5916px;
@@ -7249,9 +7223,6 @@ div {
   left                : 399px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-aboutus .bp1-header .bp1-login:hover {
-  transform           : scale(1.1);
-}
 .bp1-aboutus .bp1-header .bp1-login .bp1-rectangle10 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 0px;
@@ -7288,9 +7259,6 @@ div {
   margin              : 0;
   left                : 507px;
   transition          : all 0.2s ease-in-out;
-}
-.bp1-aboutus .bp1-header .bp1-signup:hover {
-  transform           : scale(1.1);
 }
 .bp1-aboutus .bp1-header .bp1-signup .bp1-rectangle11 {
   background-color    : rgba(241, 90, 41, 1.0);
@@ -8744,7 +8712,7 @@ div {
 }
 .bp3-aboutus .bp3-dsc06349copy {
   background-color    : rgba(215, 215, 215, 1.0);
-  top                 : 77px;
+  top                 : 70px;
   height              : 291px;
   width               : 100%;
   position            : absolute;
@@ -10693,9 +10661,6 @@ div {
   left                : 89px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-aboutus .bp3-logo:hover {
-  transform           : scale(1.1);
-}
 .bp3-aboutus .bp3-group2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 5956px;
@@ -10947,8 +10912,8 @@ div {
 }
 .bp3-aboutus .bp3-header {
   background-color    : rgba(255, 255, 255, 0.0);
-  right               : 10.29%;
-  top                 : 24px;
+  right               : 8.59%;
+  top                 : 18px;
   height              : 30px;
   width               : 596px;
   position            : absolute;
@@ -10963,9 +10928,6 @@ div {
   margin              : 0;
   left                : 399px;
   transition          : all 0.2s ease-in-out;
-}
-.bp3-aboutus .bp3-header .bp3-login:hover {
-  transform           : scale(1.1);
 }
 .bp3-aboutus .bp3-header .bp3-login .bp3-rectangle10 {
   background-color    : rgba(255, 255, 255, 0.0);
@@ -11003,9 +10965,6 @@ div {
   margin              : 0;
   left                : 507px;
   transition          : all 0.2s ease-in-out;
-}
-.bp3-aboutus .bp3-header .bp3-signup:hover {
-  transform           : scale(1.1);
 }
 .bp3-aboutus .bp3-header .bp3-signup .bp3-rectangle11 {
   background-color    : rgba(241, 90, 41, 1.0);
