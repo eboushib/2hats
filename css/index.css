@@ -1171,6 +1171,35 @@ div {
   transform: translate(0,0);
     }
 }
+.bp3-getaheadbutton .bp3-getahead {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 140px;
+  position            : absolute;
+  margin              : 0;
+  left                : 249px;
+}
+
+.bp2-getaheadbutton .bp2-getahead {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
+
+.bp1-getaheadbutton .bp1-getahead {
+  background-color    : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 42px;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 211px;
+}
 .bp3-aboutus3 .bp3-path2 {
   background-color    : rgba(255, 255, 255, 0.0);
   top                 : 697px;
