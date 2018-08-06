@@ -430,11 +430,14 @@ footer .copyright {
 /* media queries */
 
 @media( max-width: 1280px) {
+    .our-process .bullet-1 {
+        left: 39.5%;
+    }
     .our-process .bullet-2 {
-        left: 58.5%;
+        left: 59.8%;
     }
     .our-process .bullet-3 {
-        left: 43%;
+        left: 39%;
     }
 }
 
@@ -613,6 +616,12 @@ footer .copyright {
 
 @media ( min-width: 1400px) {
     .our-process .bullet-1 {
-        left: 35.5%;
+        left: 39.5%;
+    }
+    .our-process .bullet-2 {
+        left: 60.3%;
+    }
+    .our-process .bullet-3 {
+        left: 39.5%;
     }
 }
