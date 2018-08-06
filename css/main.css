@@ -127,6 +127,7 @@ header .banner img.abs {
     background-size: cover;
     padding: 160px 0;
     position: relative;
+    height: 1700px;
 }
 
 .our-process .bullet {
@@ -138,17 +139,17 @@ header .banner img.abs {
 }
 
 .our-process .bullet-1 {
-    left: 39%;
+    left: 33.5%;
     top: 691px;
 }
 
 .our-process .bullet-2 {
-    left: 60.3%;
+    left: 59.3%;
     top: 960px;
 }
 
 .our-process .bullet-3 {
-    left: 39.5%;
+    left: 41.5%;
     top: 1245px;
 }
 
@@ -208,7 +209,7 @@ header .banner img.abs {
     height: 100%;
     position: absolute;
     top: 270px;
-    left: 6%;
+    left: 7.5%;
 }
 
 .our-process .start-artwork,
@@ -218,15 +219,37 @@ header .banner img.abs {
 
 .our-process .step {
     padding: 40px;
+    position: absolute;
 }
 
 .our-process .step-1 {
-    padding-left: 15%;
+    top: 411px;
+    left: 24%;
+    width: 40%;
 }
 
 .our-process .step-2 {
-    padding: 36px;
-    padding-left: 40px;
+    top: 620px;
+    left: 50%;
+    width: 40%;
+}
+
+.our-process .step-3 {
+    top: 890px;
+    left: 12%;
+    width: 40%;
+}
+
+.our-process .step-4 {
+    top: 1174px;
+    left: 50%;
+    width: 40%;
+}
+
+.our-process .step-5 {
+    top: 1350px;
+    left: 5%;
+    width: 36%;
 }
 
 .our-process .step-2,
@@ -249,8 +272,16 @@ header .banner img.abs {
 
 .our-process .artwork {
     position: absolute;
+}
+
+.our-process .artwork-1 {
+    top: 440px;
+    left: 13%;
+}
+
+.our-process .artwork-2 {
     top: 1418px;
-    left: 40%;
+    left: 35%;
 }
 
 /* end our process */
@@ -296,15 +327,15 @@ header .banner img.abs {
 }
 
 .testimonials p {
-    font-size: 24.0px;
+    font-size: 24px;
     color: #414042;
-    line-height: 29.0px;
+    line-height: 29px;
 }
 
 .testimonials .customer-name {
-    font-size: 24.0px;
+    font-size: 24px;
     color: rgba(74, 73, 74, 0.79);
-    line-height: 29.0px;
+    line-height: 29px;
 }
 
 /* end testimonials */
@@ -357,7 +388,7 @@ footer ul {
 }
 
 footer ul li a {
-    font-size: 18.0px;
+    font-size: 18px;
     color: #000;
     line-height: 34px;
     transition: all 0.3s ease-in-out;
@@ -390,7 +421,7 @@ footer .follow-us img {
 }
 
 footer .copyright {
-    font-size: 12.0px;
+    font-size: 12px;
     color: #909090;
 }
 
@@ -398,14 +429,66 @@ footer .copyright {
 
 /* media queries */
 
+@media( max-width: 1280px) {
+    .our-process .bullet-2 {
+        left: 58.5%;
+    }
+    .our-process .bullet-3 {
+        left: 43%;
+    }
+}
+
+@media( max-width: 1024px) {
+    .our-process .step-1 {
+        width: 70%;
+    }
+    .our-process .step-2 {
+        top: 620px;
+        left: 44%;
+        width: 50%;
+    }
+    .our-process .step-3 {
+        left: 10%;
+        width: 50%;
+    }
+    .our-process .step-4 {
+        left: 45%;
+        width: 45%;
+    }
+    .our-process .step-5 {
+        left: 3%;
+        width: 45%;
+    }
+    .our-process .bullet-1 {
+        left: 39%;
+    }
+    .our-process .bullet-2 {
+        left: 59.5%;
+    }
+    .our-process .bullet-3 {
+        left: 39%;
+    }
+    .our-process .end-artwork {
+        width: 90px;
+    }
+    .our-process .artwork-2 {
+        left: 42%;
+    }
+}
+
 @media( max-width: 992px) {
+    .navbar {
+        padding: 0 30px;
+    }
     nav .primary-button {
         margin: 0;
         margin-right: 10px;
+        margin-bottom: 20px;
     }
     header .banner h1 {
         font-size: 50px;
         margin-top: 40px;
+        /* margin-top: 260px; */
         margin-bottom: 20px;
     }
     nav {
@@ -419,6 +502,24 @@ footer .copyright {
         margin-left: 0;
         margin-bottom: 16px;
         width: 100%;
+    }
+    .our-process {
+        height: fit-content;
+    }
+    .our-process p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .our-process h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .our-process .artwork-1,
+    .our-process .artwork-2 {
+        left: 1%;
+    }
+    .our-process .bullet-2 {
+        top: 1040px;
     }
     .timeline-path {
         display: none;
@@ -443,17 +544,47 @@ footer .copyright {
     }
     .our-process .step-1,
     .our-process .title,
-    .our-process .text {
+    .our-process .step-5 {
         padding-left: 40px;
+    }
+    .our-process .step-1,
+    .our-process .step-5 {
+        margin-top: 40px;
     }
     .our-process h2:nth-of-type(1) {
         text-align: left;
-        font-size: 50px;
+        font-size: 40px;
+    }
+    .our-process .step {
+        position: static;
+        width: 100%;
+    }
+    .our-process .title p {
+        text-align: left;
     }
     .how-it-works,
     .testimonials,
     .cta {
         padding: 40px 0;
+    }
+    .how-it-works h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .how-it-works p {
+        padding: 20px;
+        line-height: 28px;
+    }
+    .testimonials p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .testimonials .customer-name {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .cta button.learn-more {
+        margin: 20px 10px;
     }
     .cta h2 {
         font-size: 32px;
@@ -469,10 +600,19 @@ footer .copyright {
         padding: 20px;
         padding-top: 160px;
     }
+    footer .copyright {
+        margin-top: 20px;
+    }
 }
 
-@media( min-width: 993px ) {
+@media( min-width: 993px) {
     .timeline-path-sm {
         display: none;
+    }
+}
+
+@media ( min-width: 1400px) {
+    .our-process .bullet-1 {
+        left: 35.5%;
     }
 }
