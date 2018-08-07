@@ -614,6 +614,18 @@ footer .copyright {
     }
 }
 
+@media ( min-width: 1366px) {
+    .our-process .bullet-1 {
+        left: 39.5%;
+    }
+    .our-process .bullet-2 {
+        left: 59.8%;
+    }
+    .our-process .bullet-3 {
+        left: 39.5%;
+    }
+}
+
 @media ( min-width: 1400px) {
     .our-process .bullet-1 {
         left: 39.5%;
