@@ -8,6 +8,28 @@ $(document).ready(function () {
 	captureEmail(2);
 	captureEmail(3);
 
+	// trigger css animations on scroll
+	$(window).scroll(function(){
+		$('.our-process .step-1 h3, .our-process .step-1 p, .our-process .step-2 h3, .our-process .step-2 p, .our-process .step-4 h3, .our-process .step-4 p').each(function(){
+			if ( $(window).scrollTop() + ( $(window).height() * 7/8 ) > $(this).offset().top ) {
+				$(this).addClass('animatedOnScrollToLeft');
+			}
+
+		});
+		$('.our-process .step-3 h3, .our-process .step-3 p, .our-process .step-5 h3, .our-process .step-5 p').each(function(){
+			if ( $(window).scrollTop() + ( $(window).height() * 7/8 ) > $(this).offset().top ) {
+				$(this).addClass('animatedOnScrollToRight');
+			}
+		});
+		$('.how-it-works, .testimonials, .cta').each(function(){
+			if ( $(window).scrollTop() + ( $(window).height() * 7/8 ) > $(this).offset().top ) {
+				$(this).addClass('animatedOnScrollToTop');
+			}
+		});
+	});
+
+
+
 	// Banner height
 	var bannerHeightWideScreen = $(window).height() - $('nav').outerHeight();
 	if ($(window).width() > 992) {
@@ -16,29 +38,24 @@ $(document).ready(function () {
 
 	// Adjust text and timeline bullets
 	// desktop view
-	var sectionOffset = $('.our-process').offset().top;
+	var ourProcessSectionOffset = $('.our-process').offset().top;
 
-	var step2offset = ($('.bullet-1').offset().top - ($('.step-2').height() / 2)) - sectionOffset;
+	var step2offset = ($('.bullet-1').offset().top - ($('.step-2').height() / 2)) - ourProcessSectionOffset + 18;
 	$('.step-2').css('top', step2offset);
 
-	var step3offset = ($('.bullet-2').offset().top - ($('.step-3').height() / 2)) - sectionOffset;
+	var step3offset = ($('.bullet-2').offset().top - ($('.step-3').height() / 2)) - ourProcessSectionOffset + 18;
 	$('.step-3').css('top', step3offset);
 
-	var step4offset = ($('.bullet-3').offset().top - ($('.step-4').height() / 2)) - sectionOffset;
+	var step4offset = ($('.bullet-3').offset().top - ($('.step-4').height() / 2)) - ourProcessSectionOffset + 18;
 	$('.step-4').css('top', step4offset);
 
 
-	// add grid in mobile view
-	if ($(window).width() <= 992) { // was 992
-		$('.title').wrap('<div class="row"><div class="col-md-12"></div></div>');
-		$('.step').each(function () {
-			$(this).wrap('<div class="row"><div class="col-md-12"></div></div>');
-		});
-
-		// adjust bullets offset top in mobile view
+	// adjust bullets offset top in mobile view
+	/*
+	if ($(window).width() <= 992) {
 		// step-1
 		var step1Offset = $('.step-1').offset().top,
-			artwork1Offset = step1Offset - sectionOffset;
+			artwork1Offset = step1Offset - ourProcessSectionOffset;
 		$('.artwork-1').css('top', artwork1Offset);
 		// step-2
 		var step2Offset = $('.step-2').offset().top,
@@ -60,6 +77,7 @@ $(document).ready(function () {
 			artwork2Offset = step5Offset - sectionOffset - 40;
 		$('.artwork-2').css('top', artwork2Offset);
 	}
+	*/
 
 
 });
