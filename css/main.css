@@ -258,17 +258,17 @@ header .banner img.artwork-3 {
     background: #fff;
 }
 
-.our-process .bullet-1 {
+.our-process .bullet-2 {
     left: 33.5%;
     top: 691px;
 }
 
-.our-process .bullet-2 {
+.our-process .bullet-3 {
     left: 50%;
     top: 1150px;
 }
 
-.our-process .bullet-3 {
+.our-process .bullet-4 {
     left: 41.5%;
     top: 1585px;
 }
@@ -725,10 +725,10 @@ footer .copyright {
 /* media queries */
 
 @media( max-width: 1280px) {
-    .our-process .bullet-1 {
+    .our-process .bullet-2 {
         left: 39.5%;
     }
-    .our-process .bullet-3 {
+    .our-process .bullet-4 {
         left: 54%;
     }
     .our-process .step-5 {
@@ -777,10 +777,10 @@ footer .copyright {
         left: 13%;
         width: 67%;
     }
-    .our-process .bullet-1 {
+    .our-process .bullet-2 {
         left: 39%;
     }
-    .our-process .bullet-3 {
+    .our-process .bullet-4 {
         left: 54%;
     }
     .our-process .end-artwork {
@@ -847,7 +847,7 @@ footer .copyright {
     .our-process .artwork-1 {
         top: 250px;
     }
-    .our-process .bullet-2 {
+    .our-process .bullet-4 {
         top: 1040px;
     }
     .timeline-path {
@@ -858,13 +858,13 @@ footer .copyright {
         width: 24px;
         left: 5%;
     }
-    .our-process .bullet-1 {
+    .our-process .bullet-2 {
         top: 763px;
     }
-    .our-process .bullet-2 {
+    .our-process .bullet-3 {
         top: 1005px;
     }
-    .our-process .bullet-3 {
+    .our-process .bullet-4 {
         top: 1222px;
     }
     .our-process .start-artwork,
@@ -998,13 +998,13 @@ footer .copyright {
 }
 
 @media ( min-width: 1366px) {
-    .our-process .bullet-1 {
+    .our-process .bullet-2 {
         left: 39.5%;
     }
-    .our-process .bullet-2 {
+    .our-process .bullet-3 {
         left: 50%;
     }
-    .our-process .bullet-3 {
+    .our-process .bullet-4 {
         left: 54%;
     }
     .our-process .end-artwork {
@@ -1048,13 +1048,13 @@ footer .copyright {
         height: 50px;
         width: 50px;
     }
-    .our-process .bullet-1 {
+    .our-process .bullet-2 {
         left: 39.5%;
     }
-    .our-process .bullet-2 {
+    .our-process .bullet-3 {
         left: 48%;
     }
-    .our-process .bullet-3 {
+    .our-process .bullet-4 {
         left: 55%;
     }
 }
