@@ -34,6 +34,8 @@ a {
 
 header {
     height: 677px;
+    position: relative;
+    /* overflow: hidden; */
 }
 
 /* start main menu */
@@ -57,6 +59,56 @@ header {
     margin: 0;
     display: flex;
     align-items: center;
+}
+
+.navbar-toggler {
+    position: absolute;
+    height: 16px;
+    right: 20px;
+    top: 30px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.navbar-toggler span {
+    height: 2px;
+    width: 20px;
+    background: #f15a29;
+    display: block;
+    margin: 0;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-toggler span:first-child,
+.navbar-toggler span:nth-child(2) {
+    margin-bottom: 5px;
+}
+
+.rotate-minus-40 {
+    transform: rotate(-42deg);
+    transform-origin: 50%;
+    /* transform-origin: 100%; */
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.rotate-plus-40 {
+    transform: rotate(42deg);
+    /* transform-origin: 100%; */
+    transform-origin: 50%;
+}
+
+.df {
+    display: flex;
+    width: 20px;
+    align-items: center;
+    justify-content: center
+}
+
+.pabs {
+    position: absolute
 }
 
 .top-menu .navbar ul {
@@ -329,11 +381,11 @@ header .banner img.artwork-3 {
 }
 
 .our-process .timeline-path-sm {
-    width: 5px;
+    width: 4px;
     height: 100%;
     position: absolute;
-    top: 270px;
-    left: 7.5%;
+    top: 230px;
+    left: 4%;
 }
 
 .our-process .start-artwork {
@@ -800,8 +852,31 @@ footer .copyright {
 }
 
 @media( max-width: 992px) {
-    .navbar {
-        padding: 0 30px;
+    .top-menu .navbar {
+        padding: 30px;
+        display: none;
+        background: #fff;
+        width: 100vw;
+        height: fit-content;
+        border-bottom: 1px solid rgba(241, 90, 41, .5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999;
+    }
+    .top-menu .navbar ul {
+        float: none;
+    }
+    .top-menu .navbar li {
+        display: block;
+        margin: 16px;
+    }
+    .top-menu .navbar li a {
+        font-size: 14px;
+    }
+    .top-menu .primary-button {
+        font-size: 14px;
     }
     nav .primary-button {
         margin: 0;
@@ -815,20 +890,21 @@ footer .copyright {
         font-size: 44px;
         margin-top: 40px;
         line-height: 64px;
-        width: auto;
+        width: 50%;
     }
     nav {
         background: #fff;
         border-bottom: 1px solid #f15a29;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-    header .banner input,
+    /* header .banner input,
     header .banner button {
         border-radius: 20px;
         margin-left: 0;
         margin-bottom: 16px;
-        width: 100%;
-    }
+        width: 50%;
+        display: block;
+    } */
     .our-process {
         height: fit-content;
     }
@@ -856,7 +932,7 @@ footer .copyright {
     .our-process .bullet {
         height: 24px;
         width: 24px;
-        left: 5%;
+        left: 3%;
     }
     .our-process .bullet-2 {
         top: 763px;
@@ -869,16 +945,18 @@ footer .copyright {
     }
     .our-process .start-artwork,
     .our-process .end-artwork {
+        height: auto;
+    }
+    .our-process .start-artwork {
+        width: 100px;
+    }
+    .our-process .end-artwork {
         width: 80px;
     }
     .our-process .step-1,
     .our-process .title,
     .our-process .step-5 {
         padding-left: 40px;
-    }
-    .our-process .step-1,
-    .our-process .step-5 {
-        margin-top: 40px;
     }
     .our-process .title h2 {
         text-align: right;
@@ -888,6 +966,13 @@ footer .copyright {
         position: static;
         width: 100%;
         padding: 0;
+        margin-top: 40px;
+    }
+    .our-process .step-1 {
+        margin-top: 40px;
+    }
+    .our-process .step-5 {
+        margin-top: 80px;
     }
     .our-process .step h3 {
         width: 100%;
@@ -946,20 +1031,57 @@ footer .copyright {
         padding-left: 16px;
         padding-right: 16px;
     }
+    /* header .banner button,
+    header .banner input {
+        width: 100%;
+        display: block;
+    } */
+    header .banner h1 {
+        width: 100%;
+    }
     header .banner p {
         width: 100%;
     }
-    header .banner img.artwork-1,
+    /* header .banner img.artwork-1,
     header .banner img.artwork-2-1,
     header .banner img.artwork-2-2,
     header .banner img.artwork-3 {
         position: static;
         height: auto;
         width: 100%;
+    } */
+    header {
+        height: auto;
+    }
+    header .banner img.artwork-1,
+    header .banner img.artwork-2-1,
+    header .banner img.artwork-2-2,
+    header .banner img.artwork-3 {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        left: 0;
+        top: 480px;
+        z-index: 9;
+    }
+    header .banner img.artwork-2-1 {
+        position: static;
+    }
+    .our-process .timeline-path-sm {
+        width: 5px;
+        height: 100%;
+        position: absolute;
+        top: 270px;
+        left: 7.5%;
+    }
+    .our-process .bullet {
+        left: 5%;
     }
     .our-process .container {
-        padding-left: 60px;
-        padding-right: 60px;
+        /* padding-left: 60px; */
+        padding-left: 80px;
+        /* padding-right: 60px; */
+        padding-right: 40px;
     }
     .our-process .start-artwork,
     .our-process .end-artwork {
@@ -983,6 +1105,9 @@ footer .copyright {
     .how-it-works .feature {
         width: 100%;
     }
+    footer {
+        background-size: 200% 100%;
+    }
     footer .row {
         display: block;
     }
@@ -993,6 +1118,9 @@ footer .copyright {
 
 @media( min-width: 993px) {
     .timeline-path-sm {
+        display: none;
+    }
+    .navbar-toggler {
         display: none;
     }
 }
@@ -1026,6 +1154,19 @@ footer .copyright {
 }
 
 @media ( min-width: 1400px) {
+    header .banner img.artwork-1 {
+        top: 215px;
+        height: 469px;
+        width: 1053px;
+        left: 26.11%;
+    }
+    header .banner img.artwork-3 {
+        top: 279px;
+        height: 372px;
+        width: 1020px;
+        margin: 0;
+        left: 26.94%;
+    }
     .artwork-2-2 {
         display: block;
         top: 232px;
@@ -1042,7 +1183,7 @@ footer .copyright {
         font-size: 14px;
     }
     .top-menu .navbar {
-        width: 40%;
+        width: 50%;
     }
     .our-process .bullet {
         height: 50px;
@@ -1056,5 +1197,37 @@ footer .copyright {
     }
     .our-process .bullet-4 {
         left: 55%;
+    }
+}
+
+@media ( max-width: 576px) {
+    header .banner input,
+    header .banner button {
+        border-radius: 20px;
+        margin-left: 0;
+        margin-bottom: 16px;
+        width: 50%;
+        display: block;
+    }
+    header .banner button,
+    header .banner input {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media screen and ( min-width: 768px) and (max-width: 1048px) {
+    header {
+        overflow: hidden;
+    }
+}
+
+@media screen and ( min-width: 1284px) and (max-width: 1399px) {
+    header {
+        overflow: hidden;
+    }
+    .our-process .end-artwork {
+        width: auto;
+        height: 170px;
     }
 }
