@@ -8,6 +8,12 @@ $(document).ready(function () {
 	captureEmail(2);
 	captureEmail(3);
 
+	// adjust banner margin according to navbar height
+	var navbarHeight = $('.top-menu').height();
+	$('.banner').css({
+		marginTop: navbarHeight
+	});
+
 	// trigger css animations on scroll
 	$(window).scroll(function () {
 		$('.our-process .step-1 h3, .our-process .step-1 p, .our-process .step-2 h3, .our-process .step-2 p, .our-process .step-4 h3, .our-process .step-4 p').each(function () {
@@ -70,6 +76,34 @@ $(document).ready(function () {
 			});
 		}
 	}
+	$(window).on('resize', function () {
+		// dupplicate for window resize
+		// console.log( $(window).width() );
+		// mobile view
+		ourProcessSectionOffset = $('.our-process').offset().top;
+		if ($(window).width() <= 992) {
+
+			// step-1
+			$('.artwork-1').css({
+				// top: $('.step-1').offset().top - ourProcessSectionOffset - 50
+				top: $('.step-1').offset().top - ourProcessSectionOffset - 40
+			});
+
+			// step-5
+			$('.artwork-2').css({
+				// top: $('.step-5').offset().top - ourProcessSectionOffset - 60
+				top: $('.step-5').offset().top - ourProcessSectionOffset - 40
+			});
+
+			// step 2, 3 & 4
+			for (var j = 2; j < 5; j++) {
+				$('.bullet-' + j).css({
+					top: $('.step-' + j).offset().top - ourProcessSectionOffset + parseInt($('.step-' + j).css('padding-top').slice(0, -2)) + 10
+				});
+			}
+		}
+	});
+
 
 	// toggle navbar in mobile view
 	$('#navbar-toggler').click(function () {

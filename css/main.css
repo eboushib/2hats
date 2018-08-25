@@ -39,6 +39,16 @@ header {
 }
 
 /* start main menu */
+/* ##### */
+.top-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    /* width: 100%; */
+    width: 100vw;
+    background: #fff;
+    z-index: 99999;
+}
 
 .top-menu,
 .logo {
@@ -55,7 +65,8 @@ header {
     right: 13.57%;
     top: 24px;
     height: 30px;
-    width: 596px;
+    /* width: 596px; */
+    width: fit-content;
     margin: 0;
     display: flex;
     align-items: center;
@@ -223,6 +234,10 @@ header .banner p {
     line-height: 24px;
     margin-top: 10px;
 }
+header .banner h1, header .banner p {
+    z-index: 8888;
+    position: relative;
+}
 
 header .banner img {
     max-width: 100%
@@ -311,7 +326,8 @@ header .banner img.artwork-3 {
 }
 
 .our-process .bullet-2 {
-    left: 33.5%;
+    /* left: 33.5%; */
+    left: 39.5%;
     top: 691px;
 }
 
@@ -321,7 +337,8 @@ header .banner img.artwork-3 {
 }
 
 .our-process .bullet-4 {
-    left: 41.5%;
+    /* left: 41.5%; */
+    left: 54%;
     top: 1585px;
 }
 
@@ -533,6 +550,8 @@ header .banner img.artwork-3 {
     top: 0;
     margin: 0;
     font-weight: normal;
+    margin-bottom: 12px;
+    font-weight: 600;
 }
 
 .our-process p {
@@ -752,6 +771,10 @@ footer p {
     font-size: 18px;
     color: #000;
     line-height: 23px;
+    font-weight: normal;
+}
+footer p span {
+    font-weight: 600;
 }
 
 footer p .mail {
@@ -852,6 +875,9 @@ footer .copyright {
 }
 
 @media( max-width: 992px) {
+    .top-menu {
+        overflow: visible;
+    }
     .top-menu .navbar {
         padding: 30px;
         display: none;
@@ -859,7 +885,7 @@ footer .copyright {
         width: 100vw;
         height: fit-content;
         border-bottom: 1px solid rgba(241, 90, 41, .5);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
         position: absolute;
         left: 0;
         top: 0;
@@ -977,6 +1003,8 @@ footer .copyright {
     .our-process .step h3 {
         width: 100%;
         font-size: 20px;
+        line-height: 26px;
+    margin-bottom: 12px
     }
     .our-process .title p {
         text-align: right;
@@ -1229,5 +1257,8 @@ footer .copyright {
     .our-process .end-artwork {
         width: auto;
         height: 170px;
+    }
+    .our-process .step-5 {
+        left: 13%;
     }
 }
