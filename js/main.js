@@ -86,9 +86,10 @@ $(document).ready(function () {
 		// dupplicate for window resize
 		// console.log( $(window).width() );
 		
-		ourProcessSectionOffset = $('.our-process').offset().top;
+		// ourProcessSectionOffset = $('.our-process').offset().top;
 		// desktop view
 		if ($(window).width() > 1024) {
+			ourProcessSectionOffset = $('.our-process').offset().top;
 			console.log( $(window).width() );
 			for (var i = 2; i < 5; i++) {
 				$('.step-' + i).css({
@@ -99,7 +100,7 @@ $(document).ready(function () {
 
 		// mobile view
 		if ($(window).width() <= 1024) {
-
+			ourProcessSectionOffset = $('.our-process').offset().top;
 			// step-1
 			$('.artwork-1').css({
 				// top: $('.step-1').offset().top - ourProcessSectionOffset - 50
