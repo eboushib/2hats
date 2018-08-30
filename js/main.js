@@ -132,4 +132,9 @@ $(document).ready(function () {
 		$('.navbar-toggler span:nth-child(2)').toggleClass('hidden');
 		$('.navbar-toggler span:nth-child(3)').toggleClass('rotate-plus-40');
 	});
+
+	// mobile timeline height
+	$('.our-process .timeline-path-sm').css({
+		height: $('.our-process .artwork-2').offset().top - $('.our-process .artwork-1').offset().top - 80
+	});
 });
