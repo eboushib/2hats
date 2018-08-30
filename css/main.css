@@ -1568,7 +1568,7 @@ footer .copyright {
     }
 }
 
-@media screen and ( min-width: 1024px) and (max-width: 1437.99px) {
+@media screen and ( min-width: 1024.1px) and (max-width: 1437.99px) {
     .our-process {
         height: 2246px;
     }
