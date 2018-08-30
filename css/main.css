@@ -1742,6 +1742,14 @@ footer .copyright {
         width: 50%;
         padding-right: 22px;
     }
+    footer h4 {
+        font-size: 14px;
+    }
+    footer .follow-us img {
+        width: 18px;
+        height: auto;
+        margin-right: 8px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023.98px) {
