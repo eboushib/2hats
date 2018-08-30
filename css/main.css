@@ -1744,11 +1744,13 @@ footer .copyright {
     }
     footer h4 {
         font-size: 14px;
+        margin-bottom: 8px
     }
     footer .follow-us img {
         width: 18px;
         height: auto;
         margin-right: 8px;
+
     }
 }
 
