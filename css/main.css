@@ -194,6 +194,7 @@ header .banner {
     align-items: center;
     background: url(img/home-clouds.png);
     background-size: cover;
+    overflow: hidden;
 }
 
 header .banner form {
@@ -1614,14 +1615,17 @@ footer .copyright {
         font-size: 44px;
         line-height: 54px;
     }
+
     header .banner p {
         font-size: 18px;
         line-height: 24px;
     }
+
     .our-process {
         height: auto;
         padding-bottom: 60px;
     }
+
     .our-process .start-artwork {
         width: 110px;
     }
@@ -1742,15 +1746,16 @@ footer .copyright {
         width: 50%;
         padding-right: 22px;
     }
+
     footer h4 {
         font-size: 14px;
         margin-bottom: 8px
     }
+
     footer .follow-us img {
         width: 18px;
         height: auto;
         margin-right: 8px;
-
     }
 }
 
