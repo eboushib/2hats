@@ -25,7 +25,6 @@ a {
 header {
     height: 677px;
     position: relative;
-    /* overflow: hidden; */
 }
 
 /* start main menu */
@@ -366,17 +365,14 @@ header .banner img.artwork-3 {
 
 .our-process .bullet-2 {
     left: 39.5%;
-    /* top: 691px; */
 }
 
 .our-process .bullet-3 {
     left: 50%;
-    /* top: 1150px; */
 }
 
 .our-process .bullet-4 {
     left: 54%;
-    /* top: 1585px; */
 }
 
 .our-process h2,
@@ -608,12 +604,9 @@ header .banner img.artwork-3 {
 
 .our-process .artwork-1 {
     position: absolute;
-    /* top: 340px; */
-    /* left: 20px; */
 }
 
 .our-process .artwork-2 {
-    /* top: 1750px; */
     left: 86%;
 }
 
@@ -1017,14 +1010,6 @@ footer .copyright {
         left: 1%;
     }
 
-    /* .our-process .artwork-1 {
-        top: 250px;
-    } */
-
-    /* .our-process .bullet-4 {
-        top: 1040px;
-    } */
-
     .timeline-path {
         display: none;
     }
@@ -1034,18 +1019,6 @@ footer .copyright {
         width: 36px;
         left: 3%;
     }
-
-    /* .our-process .bullet-2 {
-        top: 763px;
-    } */
-
-    /* .our-process .bullet-3 {
-        top: 1005px;
-    } */
-
-    /* .our-process .bullet-4 {
-        top: 1222px;
-    } */
 
     .our-process .start-artwork,
     .our-process .end-artwork {
