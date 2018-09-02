@@ -65,13 +65,11 @@ $(document).ready(function () {
 
 		// step-1
 		$('.artwork-1').css({
-			// top: $('.step-1').offset().top - ourProcessSectionOffset - 50
 			top: $('.step-1').offset().top - ourProcessSectionOffset - 40
 		});
 
 		// step-5
 		$('.artwork-2').css({
-			// top: $('.step-5').offset().top - ourProcessSectionOffset - 60
 			top: $('.step-5').offset().top - ourProcessSectionOffset - 40
 		});
 
@@ -83,10 +81,7 @@ $(document).ready(function () {
 		}
 	}
 	$(window).on('resize', function () {
-		// dupplicate for window resize
-		// console.log( $(window).width() );
-		
-		// ourProcessSectionOffset = $('.our-process').offset().top;
+
 		// desktop view
 		if ($(window).width() > 1024) {
 			ourProcessSectionOffset = $('.our-process').offset().top;
@@ -103,13 +98,11 @@ $(document).ready(function () {
 			ourProcessSectionOffset = $('.our-process').offset().top;
 			// step-1
 			$('.artwork-1').css({
-				// top: $('.step-1').offset().top - ourProcessSectionOffset - 50
 				top: $('.step-1').offset().top - ourProcessSectionOffset - 40
 			});
 
 			// step-5
 			$('.artwork-2').css({
-				// top: $('.step-5').offset().top - ourProcessSectionOffset - 60
 				top: $('.step-5').offset().top - ourProcessSectionOffset - 40
 			});
 
