@@ -10,6 +10,10 @@ body {
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     padding-left: 12%;
     padding-right: 12%;
@@ -25,6 +29,10 @@ a {
 header {
     height: 677px;
     position: relative;
+}
+
+header.companies-header {
+    height: 506px;
 }
 
 /* start main menu */
@@ -239,6 +247,11 @@ header .banner h1 {
     margin-bottom: 0;
 }
 
+header.companies-header .banner h1 {
+    width: 736px;
+    color: #000;
+}
+
 header .banner p {
     width: 360px;
     left: 1px;
@@ -265,6 +278,7 @@ header .banner img {
         -webkit-transform: translate(40px, 0);
         transform: translate(40px, 0);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translate(0, 0);
@@ -278,6 +292,7 @@ header .banner img {
         -webkit-transform: translate(40px, 0);
         transform: translate(40px, 0);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translate(0, 0);
@@ -291,6 +306,7 @@ header .banner img {
         -webkit-transform: translate(25px, 0);
         transform: translate(25px, 0);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translate(0, 0);
@@ -304,6 +320,7 @@ header .banner img {
         -webkit-transform: translate(25px, 0);
         transform: translate(25px, 0);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translate(0, 0);
@@ -324,12 +341,35 @@ header .banner img.artwork-1 {
     animation-delay: .75s
 }
 
+header.companies-header .banner img.artwork-1 {
+    position: absolute;
+    left: 32.81%;
+    top: 186px;
+    height: 366px;
+    width: 879px;
+    opacity: 0;
+    z-index: 100;
+    -webkit-animation: animateToLeft40 1s ease-in-out forwards;
+    animation: animateToLeft40 1s ease-in-out forwards;
+    -webkit-animation-delay: .75s;
+    animation-delay: .75s
+}
+
 header .banner img.artwork-2-1 {
     position: absolute;
     left: 50%;
     top: 151px;
     height: 427px;
     width: 507px;
+}
+
+header.companies-header .banner img.artwork-2 {
+    position: absolute;
+    top: 208px;
+    height: 322px;
+    width: 629px;
+    left: 53.81%;
+    z-index: 101;
 }
 
 header .banner img.artwork-3 {
@@ -353,6 +393,11 @@ header .banner img.artwork-3 {
     background-size: cover;
     padding: 60px 0;
     position: relative;
+}
+
+.selection-process {
+    background: url(../img/company-path-2.svg);
+    background-size: cover;
 }
 
 .our-process .bullet {
@@ -399,6 +444,11 @@ header .banner img.artwork-3 {
     text-align: right;
     font-weight: normal;
     margin-bottom: 0;
+}
+
+.selection-process .title h2,
+.selection-process .title p {
+    color: #414042;
 }
 
 .our-process .step:nth-of-type(2) h3,
@@ -519,12 +569,17 @@ header .banner img.artwork-3 {
     opacity: 0;
 }
 
-.animatedOnScrollToLeft {
+.animatedOnScrollToLeftForward {
     -webkit-animation: animateOnScrollToLeft .4s ease-in-out forwards;
     animation: animateOnScrollToLeft .4s ease-in-out forwards;
 }
 
-.animatedOnScrollToRight {
+.animatedOnScrollToLeft {
+    -webkit-animation: animateOnScrollToLeft .4s ease-in-out;
+    animation: animateOnScrollToLeft .4s ease-in-out;
+}
+
+.animatedOnScrollToRightForward {
     -webkit-animation: animateOnScrollToRight .4s ease-in-out forwards;
     animation: animateOnScrollToRight .4s ease-in-out forwards;
 }
@@ -598,6 +653,136 @@ header .banner img.artwork-3 {
     margin-top: 0;
 }
 
+.selection-process .company-path {
+    height: 1241px;
+    width: 908px;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.selection-process .step-title {
+    margin: 0;
+    font-family: "HelveticaNeue-Bold", Helvetica, Arial, serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all .2s ease-in-out;
+}
+
+.selection-process .step:hover .step-title {
+    opacity: 0 !important;
+}
+
+.selection-process .step:hover .step-description {
+    opacity: 1;
+}
+
+.selection-process .step-description {
+    color: #fff;
+    font-size: 24px;
+    line-height: 29px;
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.our-process.selection-process .step {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    height: auto;
+}
+
+.our-process.selection-process .step-content {
+    position: relative;
+}
+
+.our-process.selection-process .step-1 {
+    top: 440px;
+    width: 789px;
+}
+
+.our-process.selection-process .step-1 hr {
+    width: 782px;
+}
+
+.our-process.selection-process .step-2 {
+    top: 579px;
+    width: 689px;
+}
+
+.our-process.selection-process .step-2 hr {
+    width: 685px;
+}
+
+.our-process.selection-process .step-3 {
+    top: 715px;
+    width: 689px;
+}
+
+.our-process.selection-process .step-3 hr {
+    width: 584px;
+}
+
+.our-process.selection-process .step-4 {
+    top: 849px;
+    width: 577px;
+}
+
+.our-process.selection-process .step-4 hr {
+    width: 493px;
+}
+
+.our-process.selection-process .step-5 {
+    top: 989px;
+    width: 499px;
+}
+
+.our-process.selection-process .step-5 hr {
+    width: 407px;
+}
+
+.our-process.selection-process .step-6 {
+    top: 1159px;
+    width: 397px;
+}
+
+.our-process.selection-process .step-6 hr {
+    width: 329px;
+}
+
+.our-process.selection-process .step-7 {
+    top: 1346px;
+    width: 331px;
+}
+
+.our-process.selection-process hr {
+    border: 1px solid #fff;
+    position: relative;
+    top: 97px;
+}
+
+.our-process.selection-process .step-5 hr {
+    top: 133px;
+}
+
+.our-process.selection-process .step-6 hr {
+    top: 158px;
+}
+
 .our-process .artwork {
     position: absolute;
 }
@@ -615,6 +800,10 @@ header .banner img.artwork-3 {
 .how-it-works {
     padding: 60px 0;
     opacity: 0;
+}
+
+.how-it-works.companies-how-it-works {
+    padding-top: 300px
 }
 
 .how-it-works .features {
@@ -674,11 +863,20 @@ header .banner img.artwork-3 {
     margin-bottom: 0;
 }
 
+.how-it-works.companies-how-it-works h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
 .how-it-works p {
     font-size: 18px;
     color: #414042;
     line-height: 22px;
     padding: 30px;
+}
+
+.how-it-works.companies-how-it-works p {
+    padding: 10px;
 }
 
 /* end how it works */
@@ -709,6 +907,22 @@ header .banner img.artwork-3 {
     line-height: 29px;
     width: 82%;
     margin: auto;
+}
+
+.testimonials .achievements .achievement p {
+    width: 209px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.testimonials .achievements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 40px;
 }
 
 .testimonials .customer-name {
@@ -746,6 +960,11 @@ header .banner img.artwork-3 {
     color: #414042;
     font-weight: normal;
     margin-bottom: 0;
+}
+
+.cta.companies-cta h2 {
+    font-size: 36px;
+    line-height: 44px;
 }
 
 /* end cta */
@@ -1226,19 +1445,24 @@ footer .copyright {
     .navbar-toggler {
         display: none;
     }
+
     .our-process .artwork-1 {
         top: 340px !important;
         left: 20px !important;
     }
+
     .our-process .bullet-2 {
         top: 691px !important;
     }
+
     .our-process .bullet-3 {
         top: 1150px !important;
     }
+
     .our-process .bullet-4 {
         top: 1585px !important;
     }
+
     .our-process .artwork-2 {
         top: 1750px !important;
     }
@@ -1463,7 +1687,6 @@ footer .copyright {
         border-radius: 20px;
         font-size: 14px;
     }
-
 }
 
 @media (max-width: 442px) {
@@ -1646,6 +1869,10 @@ footer .copyright {
 @media screen and (min-width: 1024.1px) and (max-width: 1437.99px) {
     .our-process {
         height: 2246px;
+    }
+
+    .our-process.selection-process {
+        height: 1461px;
     }
 
     .our-process .title p {

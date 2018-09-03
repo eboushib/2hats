@@ -18,15 +18,23 @@ $(document).ready(function () {
 	$(window).scroll(function () {
 		$('.our-process .step-1 h3, .our-process .step-1 p, .our-process .step-2 h3, .our-process .step-2 p, .our-process .step-4 h3, .our-process .step-4 p').each(function () {
 			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
-				$(this).addClass('animatedOnScrollToLeft');
+				$(this).addClass('animatedOnScrollToLeftForward');
 			}
 
 		});
 		$('.our-process .step-3 h3, .our-process .step-3 p, .our-process .step-5 h3, .our-process .step-5 p').each(function () {
 			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
-				$(this).addClass('animatedOnScrollToRight');
+				$(this).addClass('animatedOnScrollToRightForward');
 			}
 		});
+
+		// comapnies page slide on scroll effect | our process section
+		$('.our-process.selection-process .step-title').each(function () {
+			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
+				$(this).addClass('animatedOnScrollToLeft');
+			}
+		});
+
 		$('.how-it-works, .testimonials, .cta').each(function () {
 			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
 				$(this).addClass('animatedOnScrollToTop');
@@ -48,9 +56,11 @@ $(document).ready(function () {
 	// desktop view
 	if ($(window).width() > 1024) {
 		for (var i = 2; i < 5; i++) {
-			$('.step-' + i).css({
-				top: ($('.bullet-' + i).offset().top - ($('.step-' + i).height() / 2)) - ourProcessSectionOffset + 18
-			});
+			if (($('.bullet-' + i)).length) {
+				$('.main-process .step-' + i).css({
+					top: ($('.bullet-' + i).offset().top - ($('.step-' + i).height() / 2)) - ourProcessSectionOffset + 18
+				});
+			}
 		}
 	}
 
@@ -74,7 +84,7 @@ $(document).ready(function () {
 			});
 		}
 	}
-	
+
 	$(window).on('resize', function () {
 
 		// desktop view
@@ -125,7 +135,17 @@ $(document).ready(function () {
 	});
 
 	// mobile timeline height
-	$('.our-process .timeline-path-sm').css({
-		height: $('.our-process .artwork-2').offset().top - $('.our-process .artwork-1').offset().top - 40
-	});
+	if ( $('.our-process .artwork-2').length ) {
+		$('.our-process .timeline-path-sm').css({
+			height: $('.our-process .artwork-2').offset().top - $('.our-process .artwork-1').offset().top - 40
+		});
+	}
+
+	// toggle visibility of step title & step description in companies page
+	// $('.selection-process .step-title').mouseenter(function(){
+	// 	$(this).hide();
+	// });
+	// $('.selection-process .step-title').hover(function(){ $(this).hide(); }, function(){ $(this).show(); });
+	// $('.selection-process .step-title').mouseenter(function(){ $(this).hide(); });
+	// $('.selection-process .step-title').mouseleave(function(){ $(this).show(); });
 });
