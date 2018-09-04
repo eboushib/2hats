@@ -25,6 +25,14 @@ a {
     text-decoration: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
 /* start header */
 header {
     height: 677px;
@@ -33,6 +41,10 @@ header {
 
 header.companies-header {
     height: 506px;
+}
+
+header.about-us-header {
+    height: auto;
 }
 
 /* start main menu */
@@ -190,6 +202,12 @@ header .banner {
     overflow: hidden;
 }
 
+header.about-us-header .banner {
+    background: url('../img/about-us-dsc06349@4x.jpg');
+    background-size: cover;
+    height: 381px;
+}
+
 header .banner form {
     position: relative;
     z-index: 100;
@@ -245,6 +263,17 @@ header .banner h1 {
     width: 362px;
     margin-top: 110px;
     margin-bottom: 0;
+}
+
+header.about-us-header .banner h1 {
+    font-family: "HelveticaNeue-CondensedBlack", Helvetica, Arial, serif;
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: normal;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 136px;
 }
 
 header.companies-header .banner h1 {
@@ -1936,3 +1965,236 @@ footer .copyright {
         width: 200px;
     }
 }
+
+/* start about us | our mission */
+.our-mission h2 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #414042;
+    font-weight: normal;
+    margin-top: 109px;
+}
+
+.our-mission p {
+    font-size: 36px;
+    line-height: 43px;
+    color: #414042;
+}
+
+/* end about us | our mission */
+/* start about us | our story */
+.our-story h2 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #414042;
+    font-weight: normal;
+}
+
+.our-story p {
+    background-color: rgba(255, 255, 255, 0.0);
+    width: 749px;
+    font-family: "HelveticaNeue", Helvetica, Arial, serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #414042;
+    text-align: justify;
+}
+
+.our-story p.quote {
+    width: 601px;
+    margin-left: 74px;
+}
+
+.our-story .quote span {
+    display: block;
+    margin-top: 30px;
+}
+
+/* end about us | our story */
+/* start about us | our history */
+.our-history {
+    background: url('../img/about-us-path-3.svg');
+    background-size: cover;
+    height: 2006px;
+    position: relative;
+    padding-top: 120px;
+}
+
+.our-history h2 {
+    /* left: 13.54%; */
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #414042;
+    font-weight: normal;
+}
+
+.our-history .step .step-date,
+.our-history .step .step-description {
+    font-family: "HelveticaNeue-BoldItalic", Helvetica, Arial, serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #414042;
+    text-align: left;
+}
+
+.our-history .step {
+    position: absolute;
+    width: 100%;
+}
+
+.our-history .step .step-description {
+    position: absolute;
+    left: 38.5%;
+}
+
+.our-history .step-1 {
+    top: 200px;
+}
+
+.our-history .step-2 {
+    top: 300px;
+}
+
+.our-history .step-3 {
+    top: 400px;
+}
+
+.our-history .step-4 {
+    top: 500px;
+}
+
+.our-history .step-5 {
+    top: 600px;
+}
+
+.our-history .step-6 {
+    top: 700px;
+}
+
+.our-history .step-7 {
+    top: 800px;
+}
+
+.our-history .step-8 {
+    top: 900px;
+}
+
+.our-history .timeline {
+    height: 1776px;
+    position: absolute;
+    top: 250px;
+    left: 31.3%;
+    width: fit-content;
+}
+
+.our-history .timeline .vertical-line {
+    width: 4px;
+    height: 100%;
+    background: #f15a29;
+}
+
+.our-history .timeline .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 11px solid #f15a29;
+    position: absolute;
+    bottom: -8px;
+    left: -8.5px;
+}
+
+.our-history .step .bullet {
+    border: 4px solid #4a4a4a;
+    background: #fff;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+}
+
+/* end about us | our history */
+/* start about us | our team */
+.our-team h2 {
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 48px;
+    line-height: 58px;
+    color: #414042;
+    font-weight: normal;
+}
+
+.our-team .row .member {
+    width: 28%;
+    margin: 2%;
+    float: left;
+}
+
+.our-team .member .member-picture {
+    height: 303px;
+    width: 240px;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-team .member .member-picture img {
+    position: absolute;
+    top: -44px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-team .member .member-picture .member-picture-container {
+    background: #ecf0f1;
+    width: 240px;
+    height: 244px;
+    border-radius: 60px;
+    position: absolute;
+    bottom: 0;
+}
+.our-team .member-1 .member-picture img {
+    height: auto;
+    width: 191px;
+}
+.our-team .member-2 .member-picture img {
+    height: auto;
+    width: 244px
+}
+.our-team .member-3 .member-picture img {
+    height: auto;
+    width: 191px
+}
+.our-team .member-7 .member-picture img {
+    height: auto;
+    width: 212px
+}
+.our-team .member-8 .member-picture img {
+    height: auto;
+    width: 141px
+}
+.our-team .member-9 .member-picture img {
+    height: auto;
+    width: 147px
+}
+.our-team .member .member-name {
+    width: 240px;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 24px;
+    line-height: 29px;
+    color: #414042;
+    text-align: center;
+    margin-top: 16px;
+}
+.our-team .member .member-position {
+    width: 240px;
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #414042;
+    text-align: center;
+}
+
+/* end about us | our team */
