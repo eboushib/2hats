@@ -501,6 +501,7 @@ header .banner img.artwork-3 {
 }
 
 .our-process .timeline-path-sm {
+    background: #fff;
     width: 4px;
     height: 100%;
     position: absolute;
