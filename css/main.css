@@ -33,6 +33,10 @@ a {
     text-align: right;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* start header */
 header {
     height: 677px;
@@ -2365,3 +2369,19 @@ footer .copyright {
 }
 
 /* end about us | contact us */
+
+/* start header | FAQ page */
+.faq-header .banner h1 {
+    width: 100%;
+    font-size: 48px;
+    line-height: 58px;
+}
+.faq-header .banner button {
+    background-color: #ecf0f1;
+    color: #414042;
+    height: 67px;
+    width: 345px;
+    border-radius: 33px;
+    margin: 23px;
+}
+/* end header | FAQ page */

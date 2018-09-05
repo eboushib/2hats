@@ -9,9 +9,15 @@ $(document).ready(function () {
 	captureEmail(3);
 
 	// adjust banner margin according to navbar height
-	var navbarHeight = $('.top-menu').height();
+	var navbarHeight = $('.top-menu').height(),
+		windowHeight = $(window).height();
 	$('.banner').css({
-		marginTop: navbarHeight
+		height: windowHeight - navbarHeight
+	});
+
+	// Make FAQ header 100% viewport height
+	$('.faq-header').css({
+		height : $(window).height() - navbarHeight
 	});
 
 	// trigger css animations on scroll
