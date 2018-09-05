@@ -608,6 +608,10 @@ header .banner img.artwork-3 {
     animation: animateOnScrollToLeft .4s ease-in-out;
 }
 
+.animatedOnScrollToRight {
+    -webkit-animation: animateOnScrollToRight .4s ease-in-out;
+    animation: animateOnScrollToRight .4s ease-in-out;
+}
 .animatedOnScrollToRightForward {
     -webkit-animation: animateOnScrollToRight .4s ease-in-out forwards;
     animation: animateOnScrollToRight .4s ease-in-out forwards;
@@ -743,6 +747,9 @@ header .banner img.artwork-3 {
     top: 440px;
     width: 789px;
 }
+.our-process.selection-process .step-1 .step-title {
+    top: 6px
+}
 
 .our-process.selection-process .step-1 hr {
     width: 782px;
@@ -780,6 +787,10 @@ header .banner img.artwork-3 {
     width: 499px;
 }
 
+.our-process.selection-process .step-5 .step-title {
+    top: 25px
+}
+
 .our-process.selection-process .step-5 hr {
     width: 407px;
 }
@@ -787,6 +798,10 @@ header .banner img.artwork-3 {
 .our-process.selection-process .step-6 {
     top: 1159px;
     width: 397px;
+}
+
+.our-process.selection-process .step-6 .step-title {
+    top: 40px
 }
 
 .our-process.selection-process .step-6 hr {
@@ -798,10 +813,20 @@ header .banner img.artwork-3 {
     width: 331px;
 }
 
+/* .our-process.selection-process .step-6 .step-title {
+    top: 30px
+} */
+
 .our-process.selection-process hr {
     border: 1px solid #fff;
-    position: relative;
-    top: 97px;
+    /* position: relative;
+    top: 97px; */
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .our-process.selection-process .step-5 hr {
@@ -1983,6 +2008,10 @@ footer .copyright {
 
 /* end about us | our mission */
 /* start about us | our story */
+.our-story {
+    padding-bottom: 150px;
+}
+
 .our-story h2 {
     font-size: 48px;
     line-height: 58px;
@@ -2020,8 +2049,11 @@ footer .copyright {
     padding-top: 120px;
 }
 
+/* .our-history .container {
+    padding: 0;
+} */
 .our-history h2 {
-    /* left: 13.54%; */
+    padding-left: 13.54%;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
     font-size: 48px;
     line-height: 58px;
@@ -2035,7 +2067,12 @@ footer .copyright {
     font-size: 24px;
     line-height: 29px;
     color: #414042;
-    text-align: left;
+    opacity: 0;
+}
+
+.our-history .step .step-date {
+    position: absolute;
+    left: 13.5%;
 }
 
 .our-history .step {
@@ -2046,10 +2083,51 @@ footer .copyright {
 .our-history .step .step-description {
     position: absolute;
     left: 38.5%;
+    width: 53%;
 }
 
 .our-history .step-1 {
     top: 200px;
+}
+
+.our-history .step-1 .step-date,
+.our-history .step-1 .step-description {
+    top: 110px;
+}
+
+.our-history .step-2 .step-date,
+.our-history .step-2 .step-description {
+    top: 394px;
+}
+
+.our-history .step-3 .step-date,
+.our-history .step-3 .step-description {
+    top: 420px;
+}
+
+.our-history .step-4 .step-date,
+.our-history .step-4 .step-description {
+    top: 480px;
+}
+
+.our-history .step-5 .step-date,
+.our-history .step-5 .step-description {
+    top: 565px;
+}
+
+.our-history .step-6 .step-date,
+.our-history .step-6 .step-description {
+    top: 580px;
+}
+
+.our-history .step-7 .step-date,
+.our-history .step-7 .step-description {
+    top: 646px;
+}
+
+.our-history .step-8 .step-date,
+.our-history .step-8 .step-description {
+    top: 868px;
 }
 
 .our-history .step-2 {
@@ -2082,16 +2160,19 @@ footer .copyright {
 
 .our-history .timeline {
     height: 1776px;
+    width: 34px;
     position: absolute;
     top: 250px;
     left: 31.3%;
-    width: fit-content;
 }
 
 .our-history .timeline .vertical-line {
     width: 4px;
     height: 100%;
     background: #f15a29;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .our-history .timeline .arrow-down {
@@ -2102,17 +2183,56 @@ footer .copyright {
     border-top: 11px solid #f15a29;
     position: absolute;
     bottom: -8px;
-    left: -8.5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.our-history .step .bullet {
+.our-history .timeline .bullet {
     border: 4px solid #4a4a4a;
     background: #fff;
     width: 34px;
     height: 34px;
     border-radius: 50%;
     position: absolute;
-    left: 30%;
+    /* left: 31.3%; */
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-history .timeline .bullet-1 {
+    top: 56px;
+}
+
+.our-history .timeline .bullet-2 {
+    top: 440px;
+}
+
+.our-history .timeline .bullet-3 {
+    top: 564px;
+}
+
+.our-history .timeline .bullet-4 {
+    top: 727px;
+}
+
+.our-history .timeline .bullet-5 {
+    top: 911px;
+}
+
+.our-history .timeline .bullet-6 {
+    top: 1029px;
+}
+
+.our-history .timeline .bullet-7 {
+    top: 1193px;
+}
+
+.our-history .timeline .bullet-8 {
+    top: 1517px;
 }
 
 /* end about us | our history */
@@ -2123,6 +2243,8 @@ footer .copyright {
     line-height: 58px;
     color: #414042;
     font-weight: normal;
+    position: relative;
+    right: 12%;
 }
 
 .our-team .row .member {
@@ -2155,30 +2277,37 @@ footer .copyright {
     position: absolute;
     bottom: 0;
 }
+
 .our-team .member-1 .member-picture img {
     height: auto;
     width: 191px;
 }
+
 .our-team .member-2 .member-picture img {
     height: auto;
     width: 244px
 }
+
 .our-team .member-3 .member-picture img {
     height: auto;
     width: 191px
 }
+
 .our-team .member-7 .member-picture img {
     height: auto;
     width: 212px
 }
+
 .our-team .member-8 .member-picture img {
     height: auto;
     width: 141px
 }
+
 .our-team .member-9 .member-picture img {
     height: auto;
     width: 147px
 }
+
 .our-team .member .member-name {
     width: 240px;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
@@ -2188,6 +2317,7 @@ footer .copyright {
     text-align: center;
     margin-top: 16px;
 }
+
 .our-team .member .member-position {
     width: 240px;
     font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
@@ -2198,3 +2328,39 @@ footer .copyright {
 }
 
 /* end about us | our team */
+/* start about us | contact us */
+.contact-us {
+    padding-top: 160px;
+}
+
+.contact-us iframe {
+    width: 364px;
+    float: right;
+}
+
+.contact-us .contact-details {
+    float: left;
+}
+
+.contact-us .map {
+    position: relative;
+    top: -130px;
+}
+
+.contact-us h2 {
+    font-family: "HelveticaNeue-Medium", Helvetica, Arial, serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 58px;
+    color: #414042;
+}
+
+.contact-us p {
+    font-family: "HelveticaNeue", Helvetica, Arial, serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 29px;
+    color: #414042;
+}
+
+/* end about us | contact us */

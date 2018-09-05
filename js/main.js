@@ -35,6 +35,18 @@ $(document).ready(function () {
 			}
 		});
 
+		// Our history section animation | about us page
+		$('.our-history .step-date').each(function () {
+			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
+				$(this).addClass('animatedOnScrollToRightForward');
+			}
+		});
+		$('.our-history .step-description').each(function () {
+			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
+				$(this).addClass('animatedOnScrollToLeftForward');
+			}
+		});
+
 		$('.how-it-works, .testimonials, .cta').each(function () {
 			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
 				$(this).addClass('animatedOnScrollToTop');
