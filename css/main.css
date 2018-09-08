@@ -2079,6 +2079,9 @@ footer .copyright {
     }
 
     /* Start our mission & our story | About us */
+    .our-story {
+        padding-bottom: 40px;
+    }
     .our-mission p, .our-story p {
         font-size: 16px;
         line-height: 26px;
@@ -2087,7 +2090,7 @@ footer .copyright {
         font-size: 28px;
         line-height: 38px;
     }
-    /* End Our Story | About us */
+    /* End Our mission & our story | About us */
 
     /* Start Our history | About us */
     .our-history h2 {
