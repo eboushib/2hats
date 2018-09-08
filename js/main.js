@@ -9,15 +9,16 @@ $(document).ready(function () {
 	captureEmail(3);
 
 	// adjust banner margin according to navbar height
-	var navbarHeight = $('.top-menu').height(),
-		windowHeight = $(window).height();
-	$('.banner').css({
-		height: windowHeight - navbarHeight
+	var navbarHeight = $('.top-menu').height();
+
+	// Adjust body margin top with fixed navbar
+	$('body').css({
+		marginTop: navbarHeight
 	});
 
 	// Make FAQ header 100% viewport height
 	$('.faq-header').css({
-		height : $(window).height() - navbarHeight
+		height: $(window).height() - navbarHeight
 	});
 
 	// trigger css animations on scroll
@@ -69,7 +70,9 @@ $(document).ready(function () {
 	}
 
 	// Adjust text and timeline bullets
-	var ourProcessSectionOffset = $('.our-process').offset().top;
+	if ($('.our-process').length > 0) {
+		var ourProcessSectionOffset = $('.our-process').offset().top;
+	}
 
 	// desktop view
 	if ($(window).width() > 1024) {
@@ -144,7 +147,6 @@ $(document).ready(function () {
 
 	// toggle navbar in mobile view
 	$('#navbar-toggler').click(function () {
-		alert('clicked !');
 		$('.top-menu .navbar').slideToggle(500);
 		$(this).toggleClass('df');
 		$('.navbar-toggler span').toggleClass('pabs');
@@ -154,7 +156,7 @@ $(document).ready(function () {
 	});
 
 	// mobile timeline height
-	if ( $('.our-process .artwork-2').length ) {
+	if ($('.our-process .artwork-2').length) {
 		$('.our-process .timeline-path-sm').css({
 			height: $('.our-process .artwork-2').offset().top - $('.our-process .artwork-1').offset().top - 40
 		});
