@@ -144,6 +144,7 @@ $(document).ready(function () {
 
 	// toggle navbar in mobile view
 	$('#navbar-toggler').click(function () {
+		alert('clicked !');
 		$('.top-menu .navbar').slideToggle(500);
 		$(this).toggleClass('df');
 		$('.navbar-toggler span').toggleClass('pabs');
@@ -159,11 +160,4 @@ $(document).ready(function () {
 		});
 	}
 
-	// toggle visibility of step title & step description in companies page
-	// $('.selection-process .step-title').mouseenter(function(){
-	// 	$(this).hide();
-	// });
-	// $('.selection-process .step-title').hover(function(){ $(this).hide(); }, function(){ $(this).show(); });
-	// $('.selection-process .step-title').mouseenter(function(){ $(this).hide(); });
-	// $('.selection-process .step-title').mouseleave(function(){ $(this).show(); });
 });

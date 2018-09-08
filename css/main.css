@@ -282,13 +282,13 @@ header.about-us-header .banner h1 {
 }
 
 header.companies-header .banner h1 {
-    width: 736px;
+    max-width: 736px;
     color: #000;
     margin-top: 0;
 }
 
 header .banner p {
-    width: 360px;
+    max-width: 360px;
     left: 1px;
     font-family: "HelveticaNeue", Helvetica, Arial, serif;
     font-size: 20px;
