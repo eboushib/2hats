@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-body {
+html, body {
     overflow-x: hidden;
 }
 
@@ -379,7 +379,7 @@ header .banner img.artwork-1 {
 header.companies-header .banner img.artwork-1 {
     position: absolute;
     left: 32.81%;
-    top: 276px;
+    top: 276px !important;
     height: auto;
     width: 879px;
     opacity: 0;
@@ -400,8 +400,8 @@ header .banner img.artwork-2-1 {
 
 header.companies-header .banner img.artwork-2 {
     position: absolute;
-    top: 300px;
-    height: 322px;
+    top: 300px !important;
+    height: auto;
     width: 629px;
     left: 53.81%;
     z-index: 101;
