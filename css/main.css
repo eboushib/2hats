@@ -1303,6 +1303,13 @@ header .banner img.artwork-3 {
     overflow: hidden;
 }
 
+.our-team .member .member-picture,
+.our-team .member .member-name,
+.our-team .member .member-position {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .our-team .member .member-picture img {
     position: absolute;
     top: -44px;
@@ -1377,17 +1384,21 @@ header .banner img.artwork-3 {
 }
 
 .contact-us iframe {
-    width: 364px;
+    width: 100%;
     float: right;
 }
 
 .contact-us .contact-details {
     float: left;
+    width: 50%;
 }
 
 .contact-us .map {
     position: relative;
     top: -130px;
+    width: 50%;
+    float: left;
+    overflow: hidden;
 }
 
 .contact-us h2 {
@@ -1792,37 +1803,46 @@ footer .copyright {
     .our-history .timeline {
         left: 13.8%;
     }
+
     .our-history .step .step-date,
     .our-history .step .step-description {
         left: 22.6%;
         width: 60%;
     }
+
     .our-history .step-1 .step-description {
         top: 145px;
     }
+
     .our-history .step-2 .step-description {
         top: 429px;
     }
+
     .our-history .step-3 .step-description {
         top: 455px;
     }
+
     .our-history .step-4 .step-description {
         top: 515px;
     }
+
     .our-history .step-5 .step-description {
         top: 600px;
     }
+
     .our-history .step-6 .step-description {
         top: 615px;
     }
+
     .our-history .step-7 .step-description {
         top: 681px;
     }
+
     .our-history .step-8 .step-description {
         top: 903px;
     }
-    /* End Our history | About us page */
 
+    /* End Our history | About us page */
     footer {
         padding: 20px;
         padding-top: 160px;
@@ -1912,6 +1932,13 @@ footer .copyright {
         width: 100%;
     }
 
+    /* Start contact us | about us page */
+    .contact-us .contact-details,
+    .contact-us .map {
+        width: 100%;
+    }
+
+    /* End contact us | about us page */
     footer {
         padding-top: 100px;
     }
@@ -1991,13 +2018,13 @@ footer .copyright {
     }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .artwork-2-2 {
         display: none;
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
     header .banner img.artwork-1 {
         top: 215px;
         height: 469px;
@@ -2051,6 +2078,13 @@ footer .copyright {
     .our-process .bullet-4 {
         left: 55%;
     }
+
+    /* Start Our team | About us page */
+    .our-team .row .member {
+        width: 21%;
+    }
+
+    /* End Our team | About us page */
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -2082,57 +2116,70 @@ footer .copyright {
     .our-story {
         padding-bottom: 40px;
     }
-    .our-mission p, .our-story p {
+
+    .our-mission p,
+    .our-story p {
         font-size: 16px;
         line-height: 26px;
     }
-    .our-mission h2, .our-story h2 {
+
+    .our-mission h2,
+    .our-story h2 {
         font-size: 28px;
         line-height: 38px;
     }
-    /* End Our mission & our story | About us */
 
+    /* End Our mission & our story | About us */
     /* Start Our history | About us */
     .our-history h2 {
         padding-left: 20px;
         font-size: 28px;
     }
+
     .our-history .timeline {
         left: 20px;
     }
+
     .our-history .timeline .vertical-line {
         width: 3px;
     }
+
     .our-history .timeline .bullet {
         border: 3px solid #4a4a4a;
         width: 24px;
         height: 24px;
     }
+
     .our-history .timeline .arrow-down {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         border-top: 8px solid #f15a29;
     }
+
     .our-history .step .step-date {
         font-size: 20px;
         font-weight: 600;
     }
+
     .our-history .step .step-description {
         font-size: 16px;
     }
-    /* End Our history | About us */
 
+    /* End Our history | About us */
     /* Start Our team | About us */
     .our-team h2 {
         font-size: 28px;
         line-height: 38px;
     }
+
     .our-team .member .member-name {
         font-size: 20px;
     }
+
     .our-team .member .member-position {
         font-size: 16px;
     }
+
     .our-team .row .member {
         width: fit-content;
         margin-left: auto;
@@ -2141,26 +2188,31 @@ footer .copyright {
     }
 
     /* End Our team | About us */
-
     /* Start contact us | About us */
     .contact-us {
         padding: 20px;
     }
+
     .contact-us h2 {
         font-size: 28px;
         line-height: 38px;
         margin-bottom: 0;
     }
+
     .contact-us p {
         font-size: 16px;
-        line-height: 26px;;
+        line-height: 26px;
+        ;
     }
+
     .contact-us iframe {
         margin-top: 20px;
     }
+
     .contact-us .map {
         top: 0;
     }
+
     /* End contact us | About us */
 }
 
