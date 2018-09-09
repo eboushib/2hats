@@ -10,7 +10,8 @@ body {
     padding: 0;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -46,11 +47,11 @@ header {
 header.companies-header {
     height: 600px;
 }
+
 header.companies-header .container {
     padding-left: 13.47%;
     padding-right: 13.47%;
 }
-
 
 header.about-us-header {
     height: auto;
@@ -746,7 +747,7 @@ header .banner img.artwork-3 {
 }
 
 .our-process.selection-process .step {
-    left: 0;
+    left: 0 !important;
     right: 0;
     margin-left: auto;
     margin-right: auto;
@@ -1208,7 +1209,7 @@ header .banner img.artwork-3 {
     top: 900px;
 }
 
-.our-history .timeline {
+.vertical-timeline {
     height: 1776px;
     width: 34px;
     position: absolute;
@@ -1216,7 +1217,7 @@ header .banner img.artwork-3 {
     left: 31.3%;
 }
 
-.our-history .timeline .vertical-line {
+.vertical-timeline .vertical-line {
     width: 4px;
     height: 100%;
     background: #f15a29;
@@ -1225,7 +1226,7 @@ header .banner img.artwork-3 {
     margin-right: auto;
 }
 
-.our-history .timeline .arrow-down {
+.vertical-timeline .arrow-down {
     width: 0;
     height: 0;
     border-left: 11px solid transparent;
@@ -1239,7 +1240,7 @@ header .banner img.artwork-3 {
     margin-right: auto;
 }
 
-.our-history .timeline .bullet {
+.vertical-timeline .bullet {
     border: 4px solid #4a4a4a;
     background: #fff;
     width: 34px;
@@ -1253,35 +1254,35 @@ header .banner img.artwork-3 {
     margin-right: auto;
 }
 
-.our-history .timeline .bullet-1 {
+.vertical-timeline .bullet-1 {
     top: 56px;
 }
 
-.our-history .timeline .bullet-2 {
+.vertical-timeline .bullet-2 {
     top: 440px;
 }
 
-.our-history .timeline .bullet-3 {
+.vertical-timeline .bullet-3 {
     top: 564px;
 }
 
-.our-history .timeline .bullet-4 {
+.vertical-timeline .bullet-4 {
     top: 727px;
 }
 
-.our-history .timeline .bullet-5 {
+.vertical-timeline .bullet-5 {
     top: 911px;
 }
 
-.our-history .timeline .bullet-6 {
+.vertical-timeline .bullet-6 {
     top: 1029px;
 }
 
-.our-history .timeline .bullet-7 {
+.vertical-timeline .bullet-7 {
     top: 1193px;
 }
 
-.our-history .timeline .bullet-8 {
+.vertical-timeline .bullet-8 {
     top: 1517px;
 }
 
@@ -1807,7 +1808,7 @@ footer .copyright {
     }
 
     /* Start Our history | About us page */
-    .our-history .timeline {
+    .vertical-timeline {
         left: 13.8%;
     }
 
@@ -1946,6 +1947,118 @@ footer .copyright {
     }
 
     /* End contact us | about us page */
+
+    /* Start Selection process us | companies page */
+
+    .our-process.selection-process {
+        height: 1800px;
+    }
+    .selection-process .step-title, .selection-process .step-description {
+        color: #414042;
+        text-align: left;
+    }
+    .our-process.selection-process hr {
+        display: none;
+    }
+
+    .vertical-timeline {
+        height: 1400px;
+    }
+
+    .our-process.selection-process .bullet {
+        left: 0;
+    }
+
+    .our-process.selection-process .step {
+        width: 75% !important;
+        left: 15% !important;
+    }
+    .our-process.selection-process .step .step-title, .our-process.selection-process .step .step-description {
+        position: static;
+        opacity: 1 !important;
+    }
+
+    .our-process.selection-process .container {
+        padding: 20px;
+    }
+
+    .our-process.selection-process .title h2 {
+        font-size: 28px;
+        left: 38px;
+    }
+
+    .our-process.selection-process .title p {
+        font-size: 16px;
+        left: 26px;
+    }
+
+    .selection-process .step-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .selection-process .step-description {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-process.selection-process .step-1 {
+        top: 220px;
+    }
+
+    .our-process.selection-process .step-2 {
+        top: 420px;
+    }
+
+    .our-process.selection-process .step-3 {
+        top: 620px;
+    }
+
+    .our-process.selection-process .step-4 {
+        top: 820px;
+    }
+
+    .our-process.selection-process .step-5 {
+        top: 1020px;
+    }
+
+    .our-process.selection-process .step-6 {
+        top: 1220px;
+    }
+
+    .our-process.selection-process .step-7 {
+        top: 1420px;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-1 {
+        top: 35px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-2 {
+        top: 215px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-3 {
+        top: 415px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-4 {
+        top: 615px !important;
+    }
+    .our-process.selection-process .vertical-timeline .bullet-5 {
+        top: 815px !important;
+    }
+    .our-process.selection-process .vertical-timeline .bullet-6 {
+        top: 1015px !important;
+    }
+    .our-process.selection-process .vertical-timeline .bullet-7 {
+        top: 1215px !important;
+    }
+
+    .company-path {
+        display: none;
+    }
+    /* End Selection process us | companies page */
     footer {
         padding-top: 100px;
     }
@@ -2123,115 +2236,43 @@ footer .copyright {
     header.companies-header .banner h1 {
         margin-top: 40px;
     }
+
     header.companies-header .banner img.artwork-2 {
         top: 361px !important;
         left: 13.47%;
     }
+
     /* End header | companies page */
-
-    /* Start Selection process | companies page */
-    .our-process.selection-process .container {
-        padding: 20px;
-    }
-    .our-process.selection-process .title h2 {
-        font-size: 28px;
-        left: 38px;
-    }
-    .our-process.selection-process .title p {
-        font-size: 16px;
-        left: 26px;
-    }
-    .selection-process .company-path {
-        height: auto;
-        width: 100%;
-        position: static;
-        margin-top: 40px;
-    }
-    .our-process.selection-process .step {
-        width: 79% !important;
-    }
-    .our-process.selection-process hr {
-        top: 60px
-    }
-    .selection-process .step-title {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .selection-process .step-description {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .our-process.selection-process .step-1 {
-        top: 160px;
-    }
-    .our-process.selection-process .step-1 hr {
-        width: 90%;
-    }
-    .our-process.selection-process .step-2 {
-        top: 316px;
-        width: 689px;
-    }
-    .our-process.selection-process .step-2 hr {
-        width: 73%;
-    }
-    .our-process.selection-process .step-3 {
-        top: 405px;
-    }
-    .our-process.selection-process .step-3 hr {
-        width: 59%;
-    }
-    .our-process.selection-process .step-4 {
-        top: 490px;
-    }
-    .our-process.selection-process .step-4 hr {
-        width: 65%;
-    }
-    .our-process.selection-process .step-5 {
-        top: 510px;
-    }
-    .our-process.selection-process .step-5 hr {
-        width: 65%;
-    }
-    .our-process.selection-process .step-6 {
-        top: 540px;
-    }
-    .our-process.selection-process .step-6 hr {
-        width: 65%;
-    }
-    .our-process.selection-process .step-7 {
-        top: 690px;
-    }
-    .our-process.selection-process .step-7 hr {
-        width: 65%;
-    }
-    /* End Selection process | companies page */
-
     /* Start How it works | companies page */
     .how-it-works.companies-how-it-works {
         padding-top: 40px;
     }
+
     .how-it-works.companies-how-it-works h2 {
         font-size: 24px;
         line-height: 34px;
     }
-    /* End How it works | companies page */
 
+    /* End How it works | companies page */
     /* Start Testimonials | companies page */
     .testimonials.companies-testimonials .customer-img img {
         max-width: 80%
     }
+
     .testimonials.companies-testimonials .achievements {
         display: block;
     }
+
     .testimonials.companies-testimonials .achievements .achievement {
         margin-bottom: 20px;
     }
+
     .testimonials.companies-testimonials .achievements .achievement p {
         width: 100%;
         font-size: 16px;
     }
-    /* End Testimonials | companies page */
 
+    /* End Testimonials | companies page */
     /* Start our mission & our story | About us */
     .our-story {
         padding-bottom: 40px;
@@ -2256,21 +2297,21 @@ footer .copyright {
         font-size: 28px;
     }
 
-    .our-history .timeline {
+    .vertical-timeline {
         left: 20px;
     }
 
-    .our-history .timeline .vertical-line {
+    .vertical-timeline .vertical-line {
         width: 3px;
     }
 
-    .our-history .timeline .bullet {
+    .vertical-timeline .bullet {
         border: 3px solid #4a4a4a;
         width: 24px;
         height: 24px;
     }
 
-    .our-history .timeline .arrow-down {
+    .vertical-timeline .arrow-down {
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
         border-top: 8px solid #f15a29;
@@ -2336,11 +2377,16 @@ footer .copyright {
     /* End contact us | About us */
 }
 
-/* @media screen and (min-width: 768px) and (max-width: 1048px) {
-    header {
-        overflow: hidden;
+@media (min-width: 768px) {
+
+    /* Start Selection process us | companies page */
+    .our-process.selection-process .timeline {
+        display: none;
     }
-} */
+
+    /* End Selection process us | companies page */
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .our-process .start-artwork {
         width: 203px;
@@ -2387,6 +2433,40 @@ footer .copyright {
     }
 
     /* End Our story | About us page */
+    .our-process .step-1 {
+        width: 459px;
+    }
+
+    .our-process .step-2 {
+        width: 479px;
+        margin-top: 120px;
+    }
+
+    .our-process .step-3 {
+        width: 481px;
+    }
+
+    .our-process .step-4 {
+        width: 329px;
+        margin-top: 80px;
+    }
+
+    .our-process .step-5 {
+        width: 508px;
+    }
+
+    /* Start Our team | About us */
+    .our-team .row .member {
+        width: 40%;
+        margin: 5%;
+        float: left;
+    }
+
+    /* End Our team | About us */
+    footer .container {
+        padding-left: 95px;
+        padding-right: 95px;
+    }
 }
 
 @media screen and (min-width: 1284px) and (max-width: 1399px) {
@@ -2607,43 +2687,6 @@ footer .copyright {
         width: 18px;
         height: auto;
         margin-right: 8px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023.98px) {
-    .our-process .step-1 {
-        width: 459px;
-    }
-
-    .our-process .step-2 {
-        width: 479px;
-        margin-top: 120px;
-    }
-
-    .our-process .step-3 {
-        width: 481px;
-    }
-
-    .our-process .step-4 {
-        width: 329px;
-        margin-top: 80px;
-    }
-
-    .our-process .step-5 {
-        width: 508px;
-    }
-
-    /* Start Our team | About us */
-    .our-team .row .member {
-        width: 40%;
-        margin: 5%;
-        float: left;
-    }
-
-    /* End Our team | About us */
-    footer .container {
-        padding-left: 95px;
-        padding-right: 95px;
     }
 }
 
