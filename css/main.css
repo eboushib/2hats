@@ -219,6 +219,10 @@ header.about-us-header .banner {
     height: 381px;
 }
 
+.faq-header .banner {
+    height: 80%;
+}
+
 header .banner form {
     position: relative;
     z-index: 100;
@@ -1985,176 +1989,6 @@ footer .copyright {
     /* End Our team | About us page */
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    .our-team .row .member {
-        width: 40%;
-        margin: 5%;
-        float: left;
-    }
-}
-
-@media (max-width: 576px) {
-
-    header .banner input,
-    header .banner button {
-        border-radius: 20px;
-        margin-left: 0;
-        margin-bottom: 16px;
-        width: 50%;
-        display: block;
-    }
-
-    header .banner button,
-    header .banner input {
-        width: 100%;
-        display: block;
-    }
-
-    /* Start header | companies page */
-    header.companies-header .banner h1 {
-        margin-top: 40px;
-    }
-
-    header.companies-header .banner img.artwork-2 {
-        top: 361px !important;
-        left: 13.47%;
-    }
-
-    /* End header | companies page */
-    /* Start How it works | companies page */
-    .how-it-works.companies-how-it-works {
-        padding-top: 40px;
-    }
-
-    .how-it-works.companies-how-it-works h2 {
-        font-size: 24px;
-        line-height: 34px;
-    }
-
-    /* End How it works | companies page */
-    /* Start Testimonials | companies page */
-    .testimonials.companies-testimonials .customer-img img {
-        max-width: 80%
-    }
-
-    .testimonials.companies-testimonials .achievements {
-        display: block;
-    }
-
-    .testimonials.companies-testimonials .achievements .achievement {
-        margin-bottom: 20px;
-    }
-
-    .testimonials.companies-testimonials .achievements .achievement p {
-        width: 100%;
-        font-size: 16px;
-    }
-
-    /* End Testimonials | companies page */
-    /* Start our mission & our story | About us */
-    .our-story {
-        padding-bottom: 40px;
-    }
-
-    .our-mission p,
-    .our-story p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .our-mission h2,
-    .our-story h2 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-
-    /* End Our mission & our story | About us */
-    /* Start Our history | About us */
-    .our-history h2 {
-        padding-left: 20px;
-        font-size: 28px;
-    }
-
-    .vertical-timeline {
-        left: 20px;
-    }
-
-    .vertical-timeline .vertical-line {
-        width: 3px;
-    }
-
-    .vertical-timeline .bullet {
-        border: 3px solid #4a4a4a;
-        width: 24px;
-        height: 24px;
-    }
-
-    .vertical-timeline .arrow-down {
-        border-left: 8px solid transparent;
-        border-right: 8px solid transparent;
-        border-top: 8px solid #f15a29;
-    }
-
-    .our-history .step .step-date {
-        font-size: 20px;
-        font-weight: 600;
-    }
-
-    .our-history .step .step-description {
-        font-size: 16px;
-    }
-
-    /* End Our history | About us */
-    /* Start Our team | About us */
-    .our-team h2 {
-        font-size: 28px;
-        line-height: 38px;
-    }
-
-    .our-team .member .member-name {
-        font-size: 20px;
-    }
-
-    .our-team .member .member-position {
-        font-size: 16px;
-    }
-
-    .our-team .row .member {
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-        float: none;
-    }
-
-    /* End Our team | About us */
-    /* Start contact us | About us */
-    .contact-us {
-        padding: 20px;
-    }
-
-    .contact-us h2 {
-        font-size: 28px;
-        line-height: 38px;
-        margin-bottom: 0;
-    }
-
-    .contact-us p {
-        font-size: 16px;
-        line-height: 26px;
-        ;
-    }
-
-    .contact-us iframe {
-        margin-top: 20px;
-    }
-
-    .contact-us .map {
-        top: 0;
-    }
-
-    /* End contact us | About us */
-}
-
 @media (min-width: 768px) {
 
     /* Start Selection process us | companies page */
@@ -2393,6 +2227,18 @@ footer .copyright {
 
     header .banner img.artwork-2-1 {
         position: static;
+    }
+
+    .faq-header .banner {
+        height: 80%;
+    }
+
+    .faq-header .banner button {
+        height: 60px;
+        width: 220px;
+        border-radius: 30px;
+        float: left;
+        margin: 20px 10px;
     }
 
     .our-process .timeline-path-sm {
@@ -2641,6 +2487,187 @@ footer .copyright {
     }
 
     /* End footer */
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .our-team .row .member {
+        width: 40%;
+        margin: 5%;
+        float: left;
+    }
+}
+
+@media (max-width: 576px) {
+
+    header .banner input,
+    header .banner button {
+        border-radius: 20px;
+        margin-left: 0;
+        margin-bottom: 16px;
+        width: 50%;
+        display: block;
+    }
+
+    header .banner button,
+    header .banner input {
+        width: 100%;
+        display: block;
+    }
+
+    /* Start header | companies page */
+    header.companies-header .banner h1 {
+        margin-top: 40px;
+    }
+
+    header.companies-header .banner img.artwork-2 {
+        top: 361px !important;
+        left: 13.47%;
+    }
+
+    .faq-header .banner h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .faq-header .banner button {
+        width: 90%;
+        float: none;
+        margin: 5%;
+    }
+
+    /* End header | companies page */
+    /* Start How it works | companies page */
+    .how-it-works.companies-how-it-works {
+        padding-top: 40px;
+    }
+
+    .how-it-works.companies-how-it-works h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    /* End How it works | companies page */
+    /* Start Testimonials | companies page */
+    .testimonials.companies-testimonials .customer-img img {
+        max-width: 80%
+    }
+
+    .testimonials.companies-testimonials .achievements {
+        display: block;
+    }
+
+    .testimonials.companies-testimonials .achievements .achievement {
+        margin-bottom: 20px;
+    }
+
+    .testimonials.companies-testimonials .achievements .achievement p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* End Testimonials | companies page */
+    /* Start our mission & our story | About us */
+    .our-story {
+        padding-bottom: 40px;
+    }
+
+    .our-mission p,
+    .our-story p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .our-mission h2,
+    .our-story h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    /* End Our mission & our story | About us */
+    /* Start Our history | About us */
+    .our-history h2 {
+        padding-left: 20px;
+        font-size: 28px;
+    }
+
+    .vertical-timeline {
+        left: 20px;
+    }
+
+    .vertical-timeline .vertical-line {
+        width: 3px;
+    }
+
+    .vertical-timeline .bullet {
+        border: 3px solid #4a4a4a;
+        width: 24px;
+        height: 24px;
+    }
+
+    .vertical-timeline .arrow-down {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid #f15a29;
+    }
+
+    .our-history .step .step-date {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .our-history .step .step-description {
+        font-size: 16px;
+    }
+
+    /* End Our history | About us */
+    /* Start Our team | About us */
+    .our-team h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .our-team .member .member-name {
+        font-size: 20px;
+    }
+
+    .our-team .member .member-position {
+        font-size: 16px;
+    }
+
+    .our-team .row .member {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    /* End Our team | About us */
+    /* Start contact us | About us */
+    .contact-us {
+        padding: 20px;
+    }
+
+    .contact-us h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 0;
+    }
+
+    .contact-us p {
+        font-size: 16px;
+        line-height: 26px;
+        ;
+    }
+
+    .contact-us iframe {
+        margin-top: 20px;
+    }
+
+    .contact-us .map {
+        top: 0;
+    }
+
+    /* End contact us | About us */
 }
 
 @media (max-width: 442px) {
