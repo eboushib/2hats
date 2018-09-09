@@ -2466,6 +2466,10 @@ footer .copyright {
         height: 1400px;
     }
 
+    .our-history .vertical-timeline {
+        height: 1620px;
+    }
+
     .our-process.selection-process .bullet {
         left: 0;
     }
