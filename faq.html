@@ -52,7 +52,18 @@
         </div>
     </header>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script>
+        // toggle navbar in mobile view
+        $('#navbar-toggler').click(function () {
+            $('.top-menu .navbar').slideToggle(500);
+            $(this).toggleClass('df');
+            $('.navbar-toggler span').toggleClass('pabs');
+            $('.navbar-toggler span:first-child').toggleClass('rotate-minus-40');
+            $('.navbar-toggler span:nth-child(2)').toggleClass('hidden');
+            $('.navbar-toggler span:nth-child(3)').toggleClass('rotate-plus-40');
+        });
+    </script>
 </body>
 
 </html>

@@ -57,6 +57,10 @@ header.about-us-header {
     height: auto;
 }
 
+header.faq-header {
+    height: 100vh;
+}
+
 /* start main menu */
 .top-menu {
     position: fixed;
@@ -1611,7 +1615,7 @@ footer .copyright {
 
     header .banner h1 {
         font-size: 44px;
-        margin-top: 40px;
+        margin-top: 25%;
         line-height: 64px;
         width: 50%;
     }
