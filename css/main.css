@@ -227,6 +227,11 @@ header.about-us-header .banner {
     height: 80%;
 }
 
+.faq-buttons {
+    display: flex;
+    justify-content: center;
+}
+
 header .banner form {
     position: relative;
     z-index: 100;
@@ -1631,6 +1636,14 @@ footer .copyright {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
+    .faq-header .banner button {
+        height: 60px;
+        width: 220px;
+        border-radius: 30px;
+        float: left;
+        margin: 20px 10px;
+    }
+
     .our-process .step-1 {
         width: 70%;
         left: 26%;
@@ -2239,14 +2252,6 @@ footer .copyright {
 
     .faq-header .banner {
         height: 80%;
-    }
-
-    .faq-header .banner button {
-        height: 60px;
-        width: 220px;
-        border-radius: 30px;
-        float: left;
-        margin: 20px 10px;
     }
 
     .our-process .timeline-path-sm {
