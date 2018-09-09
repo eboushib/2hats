@@ -2548,6 +2548,10 @@ footer .copyright {
         margin: 5%;
     }
 
+    .faq-buttons {
+        display: block !important;
+    }
+
     /* End header | companies page */
     /* Start How it works | companies page */
     .how-it-works.companies-how-it-works {
