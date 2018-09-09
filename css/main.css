@@ -1425,6 +1425,10 @@ header .banner img.artwork-3 {
 
 /* end about us | contact us */
 /* start header | FAQ page */
+.faq-header {
+    height: 100vh;
+}
+
 .faq-header .banner h1 {
     width: 100%;
     font-size: 48px;
