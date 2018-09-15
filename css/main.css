@@ -740,6 +740,7 @@ header .banner img.artwork-3 {
 
 .selection-process .step-title span {
     opacity: 0;
+    display: block;
 }
 
 .selection-process .step:hover .step-title {
