@@ -154,9 +154,6 @@ $(document).ready(function () {
 				$('.bullet-' + j).css({
 					top: $('.step-' + j).offset().top - ourProcessSectionOffset + parseInt($('.step-' + j).css('padding-top').slice(0, -2)) + 10
 				});
-				//
-				console.log('bullet-' + j + ': ' + $('.bullet-' + j).offset().top);
-
 			}
 		}
 	});
