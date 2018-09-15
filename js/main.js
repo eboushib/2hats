@@ -36,9 +36,9 @@ $(document).ready(function () {
 		});
 
 		// comapnies page slide on scroll effect | our process section
-		$('.our-process.selection-process .step-title').each(function () {
+		$('.our-process.selection-process .step-title span').each(function () {
 			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
-				$(this).addClass('animatedOnScrollToLeft');
+				$(this).addClass('animatedOnScrollToLeftForward');
 			}
 		});
 

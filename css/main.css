@@ -738,8 +738,13 @@ header .banner img.artwork-3 {
     transition: all .2s ease-in-out;
 }
 
+.selection-process .step-title span {
+    opacity: 0;
+}
+
 .selection-process .step:hover .step-title {
     opacity: 0 !important;
+    /* opacity: 0; */
 }
 
 .selection-process .step:hover .step-description {
