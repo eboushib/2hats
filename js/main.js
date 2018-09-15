@@ -41,7 +41,13 @@ $(document).ready(function () {
 				$(this).addClass('animatedOnScrollToLeftForward');
 			}
 		});
-
+		if ($(window).width() <= 768){
+			$('.our-process.selection-process .step-description').each(function () {
+				if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {
+					$(this).addClass('animatedOnScrollToLeftForward');
+				}
+			});
+		}
 		// Our history section animation | about us page
 		$('.our-history .step-date').each(function () {
 			if ($(window).scrollTop() + ($(window).height() * 7 / 8) > $(this).offset().top) {

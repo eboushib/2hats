@@ -2352,7 +2352,7 @@ footer .copyright {
     .our-process.selection-process .step .step-title,
     .our-process.selection-process .step .step-description {
         position: static;
-        opacity: 1 !important;
+        /* opacity: 1 !important; */
     }
 
     .our-process.selection-process .container {
