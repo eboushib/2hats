@@ -1088,14 +1088,18 @@ header .banner img.artwork-3 {
     line-height: 29px;
     color: #414042;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .our-story p.quote {
     max-width: 601px;
-    margin-left: 74px;
+    /* margin-left: 74px; */
     font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .our-story .quote span {
