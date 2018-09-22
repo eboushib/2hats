@@ -743,15 +743,6 @@ header .banner img.artwork-3 {
     display: block;
 }
 
-.selection-process .step:hover .step-title {
-    opacity: 0 !important;
-    /* opacity: 0; */
-}
-
-.selection-process .step:hover .step-description {
-    opacity: 1;
-}
-
 .selection-process .step-description {
     color: #fff;
     font-size: 24px;
@@ -936,7 +927,7 @@ header .banner img.artwork-3 {
     float: left;
     overflow: hidden;
     text-align: center;
-    width: 350px;
+    width: 252px;
 }
 
 .how-it-works h2 {
@@ -956,6 +947,8 @@ header .banner img.artwork-3 {
     color: #414042;
     line-height: 22px;
     padding: 30px;
+    font-family: sans-serif;
+    font-weight: normal;
 }
 
 .how-it-works.companies-how-it-works p {
@@ -997,6 +990,8 @@ header .banner img.artwork-3 {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
 }
 
 .testimonials .achievements {
@@ -1066,6 +1061,8 @@ header .banner img.artwork-3 {
     color: #414042;
     margin-left: auto;
     margin-right: auto;
+    font-family: sans-serif;
+    font-weight: normal;
 }
 
 /* end about us | our mission */
@@ -1080,6 +1077,7 @@ header .banner img.artwork-3 {
     line-height: 58px;
     color: #414042;
     font-weight: normal;
+    text-align: center
 }
 
 .our-story p {
@@ -1089,12 +1087,15 @@ header .banner img.artwork-3 {
     font-size: 24px;
     line-height: 29px;
     color: #414042;
-    text-align: justify;
+    text-align: center;
 }
 
 .our-story p.quote {
     max-width: 601px;
     margin-left: 74px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .our-story .quote span {
@@ -1132,7 +1133,10 @@ header .banner img.artwork-3 {
 
 .our-history .step .step-date {
     position: absolute;
-    left: 13.5%;
+    left: 18%;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: normal;
 }
 
 .our-history .step {
@@ -1144,7 +1148,8 @@ header .banner img.artwork-3 {
     position: absolute;
     left: 38.5%;
     width: 47%;
-    ;
+    font-family: sans-serif;
+    font-weight: normal;
 }
 
 .our-history .step-1 {
@@ -1429,6 +1434,7 @@ header .banner img.artwork-3 {
     font-weight: normal;
     line-height: 58px;
     color: #414042;
+    margin-bottom: 0;
 }
 
 .contact-us p {
@@ -1772,6 +1778,9 @@ footer .copyright {
     .our-process .step-1 {
         margin-top: 100px;
     }
+    .our-process.selection-process .step-1, .our-process.selection-process .step-5 {
+        margin-top: 60px;
+    }
 
     .our-process .step-5 {
         margin-top: 80px;
@@ -2019,6 +2028,24 @@ footer .copyright {
     }
 
     /* End Our team | About us page */
+
+    /* Start Selection process | Companies page */
+    .our-process.selection-process {
+        height: 1480px;
+    }
+    /* End Selection process | Companies page */
+
+    /* Start How it works | Companies page */
+    .how-it-works.companies-how-it-works h2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    /* End How it works | Companies page */
+    /* Start Features | Companies page */
+    .how-it-works .feature {
+        width: 296px;
+    }
+    /* End Features | Companies page */
 }
 
 @media screen and (min-width: 768.1px) {
@@ -2029,6 +2056,14 @@ footer .copyright {
     }
 
     /* End Selection process us | companies page */
+
+    .selection-process .step:hover .step-title {
+        opacity: 0 !important;
+    }
+    
+    .selection-process .step:hover .step-description {
+        opacity: 1;
+    }
 }
 
 @media screen and (min-width: 768.1px) and (max-width: 1024px) {
@@ -2345,14 +2380,15 @@ footer .copyright {
     }
 
     .our-process.selection-process .step {
-        width: 75% !important;
-        left: 15% !important;
+        width: 65% !important;
+        left: 20% !important;
     }
 
     .our-process.selection-process .step .step-title,
     .our-process.selection-process .step .step-description {
         position: static;
-        /* opacity: 1 !important; */
+        font-family: sans-serif;
+    font-weight: 400;
     }
 
     .our-process.selection-process .container {
@@ -2396,7 +2432,7 @@ footer .copyright {
     }
 
     .our-process.selection-process .step-5 {
-        top: 1020px;
+        top: 1000px;
     }
 
     .our-process.selection-process .step-6 {
@@ -2653,6 +2689,10 @@ footer .copyright {
 
     .our-history .step .step-description {
         font-size: 16px;
+    }
+    .our-process.selection-process .step {
+        width: 75% !important;
+        left: 10% !important;
     }
 
     /* End Our history | About us */
