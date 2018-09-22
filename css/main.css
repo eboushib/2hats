@@ -34,9 +34,14 @@ a {
     text-align: right;
 }
 
+.visible-sm {
+    display: none;
+}
+
 button {
     cursor: pointer;
 }
+
 
 /* start header */
 header {
@@ -983,6 +988,7 @@ header .banner img.artwork-3 {
     line-height: 29px;
     width: 82%;
     margin: auto;
+    font-style: italic;
 }
 
 .testimonials .achievements .achievement p {
@@ -1034,7 +1040,8 @@ header .banner img.artwork-3 {
 }
 
 .cta h2 {
-    font-size: 48px;
+    /* font-size: 48px; */
+    font-size: 36px;
     color: #414042;
     font-weight: normal;
     margin-bottom: 0;
@@ -1961,9 +1968,9 @@ footer .copyright {
         left: 13.57%;
     }
 
-    .cta h2 {
+    /* .cta h2 {
         font-size: 36px;
-    }
+    } */
 }
 
 @media screen and (max-width: 1440px) {
@@ -2896,6 +2903,13 @@ footer .copyright {
         width: 18px;
         height: auto;
         margin-right: 8px;
+    }
+
+    footer .visible-sm {
+        display: block;
+    }
+    footer .hidden-sm {
+        display: none;
     }
 }
 
