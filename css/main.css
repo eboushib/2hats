@@ -1422,6 +1422,7 @@ header .banner img.artwork-3 {
 .contact-us .contact-details {
     float: left;
     width: 50%;
+    padding-right: 10%;
 }
 
 .contact-us .map {
