@@ -1745,9 +1745,11 @@ footer .copyright {
     .our-process .artwork-2 {
         left: 1%;
     }
+
     .our-process .artwork-1 {
         top: 380px;
     }
+
     .our-process .artwork-2 {
         top: 1540px;
     }
@@ -1755,15 +1757,18 @@ footer .copyright {
     .our-process.main-process .bullet-2 {
         top: 725px;
     }
+
     .our-process.main-process .bullet-3 {
         top: 980px;
     }
+
     .our-process.main-process .bullet-4 {
         top: 1260px;
     }
+
     .our-process.main-process .timeline-path-sm {
         height: 1220px;
-        
+
     }
 
     .timeline-path {
@@ -1789,6 +1794,11 @@ footer .copyright {
         width: 80px;
     }
 
+    .our-process.main-process .step h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
     .our-process .step-1,
     .our-process .title,
     .our-process .step-5 {
@@ -1805,25 +1815,30 @@ footer .copyright {
         padding: 0;
         left: 20%;
     }
+
     .our-process.main-process .step-1 {
         top: 470px;
     }
+
     .our-process.main-process .step-2 {
         top: 720px;
     }
+
     .our-process.main-process .step-3 {
         top: 970px;
     }
+
     .our-process.main-process .step-4 {
         top: 1250px;
     }
+
     .our-process.main-process .step-5 {
         top: 1550px;
     }
 
-    .our-process.selection-process .step-1, .our-process.selection-process .step-5 {
+    /* .our-process.selection-process .step-1, .our-process.selection-process .step-5 {
         margin-top: 60px;
-    }
+    } */
 
     .our-process .step h3 {
         width: 100%;
@@ -2069,6 +2084,7 @@ footer .copyright {
     .our-process.selection-process {
         height: 1480px;
     }
+
     /* End Selection process | Companies page */
 
     /* Start How it works | Companies page */
@@ -2076,11 +2092,13 @@ footer .copyright {
         font-size: 48px;
         line-height: 58px;
     }
+
     /* End How it works | Companies page */
     /* Start Features | Companies page */
     .how-it-works .feature {
         width: 296px;
     }
+
     /* End Features | Companies page */
 }
 
@@ -2096,7 +2114,7 @@ footer .copyright {
     .selection-process .step:hover .step-title {
         opacity: 0 !important;
     }
-    
+
     .selection-process .step:hover .step-description {
         opacity: 1;
     }
@@ -2207,38 +2225,42 @@ footer .copyright {
     }
 
     .our-process.selection-process .step-1 {
-        top: 340px;
+        top: 420px;
         width: 580px;
     }
 
     .our-process.selection-process .step-2 {
-        top: 430px;
+        top: 530px;
         width: 495px;
     }
 
     .our-process.selection-process .step-3 {
-        top: 610px;
+        top: 640px;
         width: 415px;
     }
 
     .our-process.selection-process .step-4 {
-        top: 680px;
+        top: 755px;
         width: 465px;
     }
 
     .our-process.selection-process .step-5 {
-        top: 780px;
+        top: 860px;
         width: 410px;
     }
 
     .our-process.selection-process .step-6 {
-        top: 970px;
+        top: 1010px;
         width: 300px;
     }
 
     .our-process.selection-process .step-7 {
-        top: 1150px;
+        top: 1225px;
         width: 290px;
+    }
+
+    .selection-process .step-7 .step-description {
+        top: -20px;
     }
 
     .our-process.selection-process .step hr {
@@ -2358,8 +2380,8 @@ footer .copyright {
 
     .our-process .step p {
         width: 100%;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .our-process .title {
@@ -2422,7 +2444,11 @@ footer .copyright {
     .our-process.selection-process .step .step-description {
         position: static;
         font-family: sans-serif;
-    font-weight: 400;
+        font-weight: 400;
+    }
+
+    .our-process.selection-process .step .step-title {
+        font-weight: bold;
     }
 
     .our-process.selection-process .container {
@@ -2437,6 +2463,8 @@ footer .copyright {
     .our-process.selection-process .title p {
         font-size: 16px;
         left: 26px;
+        font-family: sans-serif;
+        font-weight: normal;
     }
 
     .selection-process .step-title {
@@ -2450,31 +2478,31 @@ footer .copyright {
     }
 
     .our-process.selection-process .step-1 {
-        top: 220px;
+        top: 280px;
     }
 
     .our-process.selection-process .step-2 {
-        top: 420px;
+        top: 460px;
     }
 
     .our-process.selection-process .step-3 {
-        top: 620px;
+        top: 660px;
     }
 
     .our-process.selection-process .step-4 {
-        top: 820px;
+        top: 860px;
     }
 
     .our-process.selection-process .step-5 {
-        top: 1000px;
+        top: 1060px;
     }
 
     .our-process.selection-process .step-6 {
-        top: 1220px;
+        top: 1260px;
     }
 
     .our-process.selection-process .step-7 {
-        top: 1420px;
+        top: 1460px;
     }
 
     .our-process.selection-process .vertical-timeline .bullet-1 {
@@ -2724,6 +2752,7 @@ footer .copyright {
     .our-history .step .step-description {
         font-size: 16px;
     }
+
     .our-process.selection-process .step {
         width: 75% !important;
         left: 10% !important;
@@ -2849,15 +2878,19 @@ footer .copyright {
     .our-process .artwork-2 {
         left: 8px;
     }
+
     .our-process .artwork-1 {
         top: 240px;
     }
+
     .our-process .artwork-2 {
         top: 1230px;
     }
+
     .our-process.main-process .step-1 {
         top: 290px;
     }
+
     .our-process.main-process .bullet-2 {
         top: 440px;
     }
@@ -2966,6 +2999,7 @@ footer .copyright {
     footer .visible-sm {
         display: block;
     }
+
     footer .hidden-sm {
         display: none;
     }
@@ -3046,4 +3080,63 @@ footer .copyright {
     .cta button {
         width: 200px;
     }
+}
+
+@media screen and (max-width: 376px) {
+    .our-process.selection-process {
+        height: 1860px;
+    }
+
+    .vertical-timeline {
+        height: 1510px;
+    }
+    
+    .our-process.selection-process .vertical-timeline .bullet-2 {
+        top: 242px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-3 {
+        top: 446px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-4 {
+        top: 625px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-5 {
+        top: 826px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-6 {
+        top: 1057px !important;
+    }
+
+    .our-process.selection-process .vertical-timeline .bullet-7 {
+        top: 1284px !important;
+    }
+
+    .our-process.selection-process .step-2 {
+        top: 487px;
+    }
+
+    .our-process.selection-process .step-3 {
+        top: 690px;
+    }
+
+    .our-process.selection-process .step-4 {
+        top: 870px;
+    }
+
+    .our-process.selection-process .step-5 {
+        top: 1070px;
+    }
+
+    .our-process.selection-process .step-6 {
+        top: 1300px;
+    }
+
+    .our-process.selection-process .step-7 {
+        top: 1526px;
+    }
+
 }
