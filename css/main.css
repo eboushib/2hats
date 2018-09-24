@@ -1043,7 +1043,6 @@ header .banner img.artwork-3 {
 }
 
 .cta h2 {
-    /* font-size: 48px; */
     font-size: 36px;
     color: #414042;
     font-weight: normal;
@@ -1104,7 +1103,6 @@ header .banner img.artwork-3 {
 
 .our-story p.quote {
     max-width: 601px;
-    /* margin-left: 74px; */
     font-family: sans-serif;
     font-weight: bold;
     font-style: italic;
@@ -1730,8 +1728,7 @@ footer .copyright {
     }
 
     .our-process {
-        height: auto;
-        padding-bottom: 120px;
+        height: 2000px;
     }
 
     .our-process p {
@@ -1747,6 +1744,26 @@ footer .copyright {
     .our-process .artwork-1,
     .our-process .artwork-2 {
         left: 1%;
+    }
+    .our-process .artwork-1 {
+        top: 380px;
+    }
+    .our-process .artwork-2 {
+        top: 1540px;
+    }
+
+    .our-process.main-process .bullet-2 {
+        top: 725px;
+    }
+    .our-process.main-process .bullet-3 {
+        top: 980px;
+    }
+    .our-process.main-process .bullet-4 {
+        top: 1260px;
+    }
+    .our-process.main-process .timeline-path-sm {
+        height: 1220px;
+        
     }
 
     .timeline-path {
@@ -1784,21 +1801,28 @@ footer .copyright {
     }
 
     .our-process .step {
-        position: static;
-        width: 100%;
+        width: 70%;
         padding: 0;
-        margin-top: 40px;
+        left: 20%;
+    }
+    .our-process.main-process .step-1 {
+        top: 470px;
+    }
+    .our-process.main-process .step-2 {
+        top: 720px;
+    }
+    .our-process.main-process .step-3 {
+        top: 970px;
+    }
+    .our-process.main-process .step-4 {
+        top: 1250px;
+    }
+    .our-process.main-process .step-5 {
+        top: 1550px;
     }
 
-    .our-process .step-1 {
-        margin-top: 100px;
-    }
     .our-process.selection-process .step-1, .our-process.selection-process .step-5 {
         margin-top: 60px;
-    }
-
-    .our-process .step-5 {
-        margin-top: 80px;
     }
 
     .our-process .step h3 {
@@ -1866,6 +1890,7 @@ footer .copyright {
     .our-history .step .step-description {
         left: 22.6%;
         width: 60%;
+        text-align: left;
     }
 
     .our-history .step-1 .step-description {
@@ -1970,10 +1995,6 @@ footer .copyright {
     .our-process .step-5 {
         left: 13.57%;
     }
-
-    /* .cta h2 {
-        font-size: 36px;
-    } */
 }
 
 @media screen and (max-width: 1440px) {
@@ -2134,7 +2155,6 @@ footer .copyright {
 
     .our-process .step-2 {
         width: 479px;
-        margin-top: 120px;
     }
 
     .our-process .step-3 {
@@ -2143,7 +2163,6 @@ footer .copyright {
 
     .our-process .step-4 {
         width: 329px;
-        margin-top: 80px;
     }
 
     .our-process .step-5 {
@@ -2773,8 +2792,7 @@ footer .copyright {
     }
 
     .our-process {
-        height: auto;
-        padding-bottom: 60px;
+        height: 1160px;
     }
 
     .our-process .start-artwork {
@@ -2822,17 +2840,54 @@ footer .copyright {
         padding-left: 25.78%;
     }
 
+    .our-process.main-process .step {
+        left: 25%;
+        width: 64%;
+    }
+
     .our-process .artwork-1,
     .our-process .artwork-2 {
         left: 8px;
     }
-
-    .our-process .step-1 {
-        margin-top: 60px;
+    .our-process .artwork-1 {
+        top: 240px;
+    }
+    .our-process .artwork-2 {
+        top: 1230px;
+    }
+    .our-process.main-process .step-1 {
+        top: 290px;
+    }
+    .our-process.main-process .bullet-2 {
+        top: 440px;
     }
 
-    .our-process .step-5 {
-        margin-top: 40px;
+    .our-process.main-process .bullet-3 {
+        top: 610px;
+    }
+
+    .our-process.main-process .bullet-4 {
+        top: 770px;
+    }
+
+    .our-process.main-process .artwork-2 {
+        top: 920px;
+    }
+
+    .our-process.main-process .step-2 {
+        top: 440px;
+    }
+
+    .our-process.main-process .step-3 {
+        top: 608px;
+    }
+
+    .our-process.main-process .step-4 {
+        top: 766px;
+    }
+
+    .our-process.main-process .step-5 {
+        top: 916px;
     }
 
     .how-it-works {
@@ -2935,14 +2990,17 @@ footer .copyright {
 
     .our-process .step-2 {
         width: 396px;
+        top: 639px;
     }
 
     .our-process .step-3 {
         width: 398px;
+        top: 1098px;
     }
 
     .our-process .step-4 {
         width: 329px;
+        top: 1533px;
     }
 
     .our-process .step-5 {
@@ -2961,15 +3019,18 @@ footer .copyright {
 
     .our-process .step-2 {
         width: 605px;
+        top: 653px;
     }
 
     .our-process .step-3 {
         width: 520px;
+        top: 1112px
     }
 
     .our-process .step-4 {
         left: 62%;
         width: 532px;
+        top: 1547px;
     }
 
     .our-process .step-5 {
