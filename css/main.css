@@ -970,6 +970,15 @@ header .banner img.artwork-3 {
     opacity: 0;
 }
 
+.testimonials .testimonial {
+    font-weight: 600;
+    font-style: italic
+}
+
+.testimonials .customer-name {
+    font-style: normal;
+}
+
 .testimonials .customer-img {
     padding: 0;
     position: relative;
@@ -1001,6 +1010,7 @@ header .banner img.artwork-3 {
     text-align: center;
     font-family: sans-serif;
     font-weight: normal;
+    font-style: normal;
 }
 
 .testimonials .achievements {
@@ -1148,7 +1158,7 @@ header .banner img.artwork-3 {
     left: 18%;
     text-align: right;
     font-family: sans-serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .our-history .step {
@@ -1811,9 +1821,9 @@ footer .copyright {
     }
 
     .our-process .step {
-        width: 70%;
+        width: 60%;
         padding: 0;
-        left: 20%;
+        left: 25%;
     }
 
     .our-process.main-process .step-1 {
@@ -1952,6 +1962,14 @@ footer .copyright {
 }
 
 @media screen and (min-width: 1024.1px) {
+
+    /* Start Header | Companies Page */
+    header.companies-header .banner h1 {
+        width: 450px !important;
+    }
+
+    /* End Header | Companies Page */
+
     .timeline-path-sm {
         display: none;
     }
@@ -2352,6 +2370,19 @@ footer .copyright {
         position: static;
     }
 
+    /* Start header | companies page */
+    header.companies-header .banner h1 {
+        margin-top: 40px;
+    }
+
+    header.companies-header .banner img.artwork-2 {
+        top: 361px !important;
+        left: 13.47%;
+        width: 540px;
+    }
+
+    /* End header | companies page */
+
     .faq-header .banner {
         height: 80%;
     }
@@ -2645,14 +2676,35 @@ footer .copyright {
     }
 
     /* Start header | companies page */
-    header.companies-header .banner h1 {
+    /* header.companies-header .banner h1 {
         margin-top: 40px;
     }
 
     header.companies-header .banner img.artwork-2 {
         top: 361px !important;
         left: 13.47%;
+    } */
+    /* End header | companies page */
+    /* Start Header | About us page */
+    header.about-us-header .banner {
+        height: 180px;
+        background-size: auto 180px;
+        background-repeat: no-repeat;
     }
+
+    header.about-us-header .banner h1 {
+        margin-top: 80px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    /* End Header | About us page */
+    /* Start Our mission | About us page */
+    .our-mission h2 {
+        margin-top: 40px;
+    }
+
+    /* End Our mission | About us page */
 
     .faq-header .banner h1 {
         font-size: 36px;
@@ -2670,6 +2722,27 @@ footer .copyright {
     }
 
     /* End header | companies page */
+
+    /* Start Our process | Students page */
+    .our-process.main-process .start-artwork {
+        width: 110px;
+    }
+    .our-process.main-process .end-artwork {
+        width: 90px;
+    }
+    .our-process.main-process .timeline-path-sm {
+        height: 1140px;
+        top: 430px;
+        left: 55px;
+        width: 4px;
+    }
+    .our-process.main-process .bullet {
+        left: 42px;
+        width: 30px;
+        height: 30px;
+    }
+    /* End Our process | Students page */
+
     /* Start How it works | companies page */
     .how-it-works.companies-how-it-works {
         padding-top: 40px;
@@ -2809,6 +2882,12 @@ footer .copyright {
     /* End contact us | About us */
 }
 
+@media screen and (min-width: 576px) {
+    header.companies-header .banner h1 {
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 442px) {
     header .banner h1 {
         font-size: 44px;
@@ -2821,24 +2900,25 @@ footer .copyright {
     }
 
     .our-process {
-        height: 1160px;
+        height: 1250px;
     }
 
-    .our-process .start-artwork {
+    .our-process.main-process .start-artwork {
         width: 110px;
     }
 
-    .our-process .end-artwork {
+    .our-process.main-process .end-artwork {
         width: 80px;
     }
 
-    .our-process .timeline-path-sm {
+    .our-process.main-process .timeline-path-sm {
         top: 300px;
         left: 44px;
         width: 3px;
+        height: 650px;
     }
 
-    .our-process .bullet {
+    .our-process.main-process .bullet {
         left: 36px;
         width: 18px;
         height: 18px;
@@ -2870,7 +2950,7 @@ footer .copyright {
     }
 
     .our-process.main-process .step {
-        left: 25%;
+        left: 26%;
         width: 64%;
     }
 
@@ -3090,7 +3170,7 @@ footer .copyright {
     .vertical-timeline {
         height: 1510px;
     }
-    
+
     .our-process.selection-process .vertical-timeline .bullet-2 {
         top: 242px !important;
     }
